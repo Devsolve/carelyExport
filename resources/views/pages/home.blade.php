@@ -5,9 +5,13 @@
         <div class="container position-relative">
             <div class="row gy-5" data-aos="fade-in">
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-                    <h2>Welcome to <span>Impact</span></h2>
-                    <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum
-                        quaerat.</p>
+                    <h2>Welcome to <span>Carely Export</span> </h2>
+                    <p>Your Reliable Partner in Global Trade. We're dedicated to providing
+                        exceptional service and quality products to help you succeed in the global marketplace. As an
+                        exporter, we're committed to going the extra mile to earn your trust and build a long-lasting
+                        partnership. With our extensive industry knowledge, attention to detail, and personalized approach,
+                        we make exporting easy and hassle-free. Plus, as we expand our product portfolio, you can count on
+                        us to continually offer new and innovative solutions to meet your needs.</p>
                     <div class="d-flex justify-content-center justify-content-lg-start">
                         <a href="{{ route('page-name', 'about-us') }}" class="btn-get-started">Get Started</a>
                         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"

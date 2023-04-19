@@ -71,8 +71,11 @@
 
 </footer><!-- End Footer -->
 <!-- End Footer -->
-
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+<div>
+    <a href="#" class="whatsapp d-flex align-items-center justify-content-center"><i
+            class="bi bi-whatsapp"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+</div>
 
 <div id="preloader"></div>
