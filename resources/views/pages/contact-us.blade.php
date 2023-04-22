@@ -1,5 +1,16 @@
 @extends('layouts.master')
 @section('content')
+    @push('header_css')
+        <style>
+            .country-select .flag {
+                background-image: url("{{ asset('assets/libraries/country-select-js/img/flags.png') }}");
+            }
+
+            .country-select {
+                width: 100%;
+            }
+        </style>
+    @endpush
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
@@ -54,7 +65,7 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="contactForm">
                         {{-- <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -66,19 +77,30 @@
                         </div>
                         </div> --}}
                         <div class="form-group mt-3">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                required>
+                            <input type="text" name="name" class="form-control" id="name"
+                                placeholder="Your Name">
                         </div>
                         <div class="form-group mt-3">
                             <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Your Email" required>
+                                placeholder="Your Email">
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="form-group mt-3">
+                                    <input type="text" name="country_code" id="countryCode">
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <input type="text" class="form-control" name="mobile" id="mobile"
+                                    placeholder="Your Mobile">
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="7" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>

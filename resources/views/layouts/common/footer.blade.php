@@ -65,15 +65,17 @@
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">Arghya</a>
+            {{-- Designed by <a href="https://bootstrapmade.com/">Arghya</a> --}}
         </div>
     </div>
 
 </footer><!-- End Footer -->
 <!-- End Footer -->
 <div>
-    <a href="#" class="whatsapp d-flex align-items-center justify-content-center"><i
-            class="bi bi-whatsapp"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <br>
     <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 </div>

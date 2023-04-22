@@ -22,7 +22,7 @@
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
           <a href="{{ route('home') }}" class="logo d-flex align-items-center">
               <!-- Uncomment the line below if you also wish to use an image logo -->
-              <img src="assets/img/carelyexport_icon.png" alt="CarelyExport">
+              <img src="{{ asset('assets/img/carelyexport_icon.png') }}" alt="CarelyExport">
               <h1><span>Carely Export</span></h1>
           </a>
           <nav id="navbar" class="navbar">
