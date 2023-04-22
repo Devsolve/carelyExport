@@ -23,8 +23,8 @@
 /* Colors */
 :root {
     --color-default: #222222;
-    --color-primary: #008374;
-    --color-secondary: #f85a40;
+    --color-primary: #091242;
+    --color-secondary: #ffbe34;
 }
 
 /* Smooth scroll behavior */
@@ -163,7 +163,7 @@ section {
 # Whatsapp  Button
 --------------------------------------------------------------*/
 .whatsapp {
-    position: fixed;
+    /* position: fixed; */
     visibility: hidden;
     opacity: 0;
     right: 15px;
@@ -1768,11 +1768,11 @@ section {
 
 .contact .info-item {
     width: 100%;
-    background-color: #009282;
+    background-color: #ffbe34;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    color: #fff;
+    color: #1c1f35;
 }
 
 .contact .info-item:last-child {
@@ -1785,7 +1785,7 @@ section {
     float: left;
     width: 44px;
     height: 44px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #1c1f35;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1935,6 +1935,13 @@ section {
     color: #fff;
 }
 
+.hero h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
 .hero p {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
@@ -2011,7 +2018,7 @@ section {
     padding: 60px 30px;
     position: relative;
     overflow: hidden;
-    background: #008d7d;
+    background: #ffbe34;
     box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
@@ -2028,7 +2035,7 @@ section {
 }
 
 .hero .icon-box .title a {
-    color: #fff;
+    color: #1c1f35;
     transition: 0.3s;
 }
 
@@ -2039,16 +2046,16 @@ section {
     transition: all 0.3s ease-in-out;
     font-size: 48px;
     line-height: 1;
-    color: rgba(255, 255, 255, 0.6);
+    color: #1c1f35;
 }
 
 .hero .icon-box:hover {
-    background: #009786;
+    background: #ffe203;
 }
 
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
-    color: #fff;
+    color: #1c1f35;
 }
 
 /*--------------------------------------------------------------

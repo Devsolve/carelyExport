@@ -6,22 +6,19 @@
             <div class="row gy-5" data-aos="fade-in">
                 <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
                     <h2>Welcome to <span>Carely Export</span> </h2>
-                    <p>Your Reliable Partner in Global Trade. We're dedicated to providing
-                        exceptional service and quality products to help you succeed in the global marketplace. As an
-                        exporter, we're committed to going the extra mile to earn your trust and build a long-lasting
-                        partnership. With our extensive industry knowledge, attention to detail, and personalized approach,
-                        we make exporting easy and hassle-free. Plus, as we expand our product portfolio, you can count on
-                        us to continually offer new and innovative solutions to meet your needs.</p>
-                    <div class="d-flex justify-content-center justify-content-lg-start">
+                    <h3>Your Reliable Partner in Global Trade. </h3>
+                    <p> We're dedicated to providing
+                        exceptional service and quality products to help you succeed in the global marketplace. </p>
+                    <div class="d-flex justify-content-center ">
                         <a href="{{ route('page-name', 'about-us') }}" class="btn-get-started">Get Started</a>
-                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                        {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
-                                class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                                class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
-                    <img src="{{ asset('assets/img/hero-img.svg') }}" class="img-fluid" alt="" data-aos="zoom-out"
-                        data-aos-delay="100">
+                    <img src="{{ asset('assets/img/Header_Background.svg') }}" class="img-fluid" alt=""
+                        data-aos="zoom-out" data-aos-delay="100">
                 </div>
             </div>
         </div>

@@ -6,8 +6,11 @@
 
             <div class="section-header">
                 <h2>Contact</h2>
-                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
-                    dolorem dolore earum</p>
+                <p>Thank you for your interest in our company and products. We are a merchant exporter specializing in
+                    [product category] and are committed to providing our customers with high-quality products and
+                    exceptional service. If you have any questions or would like to place an order, please don’t hesitate to
+                    get in touch with us using the contact form below or by calling or emailing us directly. We look forward
+                    to hearing from you!</p>
             </div>
 
             <div class="row gx-lg-0 gy-4">
@@ -19,7 +22,7 @@
                             <i class="bi bi-geo-alt flex-shrink-0"></i>
                             <div>
                                 <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <p>Dakshin Barasat, West Bengal, India, 743372</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -27,7 +30,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <p>info@carelyexport.com</p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -35,7 +38,7 @@
                             <i class="bi bi-phone flex-shrink-0"></i>
                             <div>
                                 <h4>Call:</h4>
-                                <p>+1 5589 55488 55</p>
+                                <p>+91 7001821069</p>
                             </div>
                         </div><!-- End Info Item -->
 
