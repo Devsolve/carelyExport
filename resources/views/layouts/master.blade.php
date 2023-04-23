@@ -9,6 +9,7 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     @include('layouts.common.includes.css_links')
+    @stack('header_css')
 </head>
 
 <body>

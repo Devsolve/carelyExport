@@ -4,11 +4,11 @@
     <div class="container">
         <div class="row gy-4">
             <div class="col-lg-5 col-md-12 footer-info">
-                <a href="index.html" class="logo d-flex align-items-center">
-                    <span>Impact</span>
+                <a href="{{ route('home') }}" class="logo d-flex align-items-center">
+                    <span>Carely Export</span>
                 </a>
-                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
-                    darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                {{-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies
+                    darta donna mare fermentum iaculis eu non diam phasellus.</p> --}}
                 <div class="social-links d-flex mt-4">
                     <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -44,11 +44,11 @@
             <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
                 <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
-                    United States <br><br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                    Dakshin Barasat, <br>
+                    West Bengal, 743372<br>
+                    India <br><br>
+                    <strong>Phone:</strong> +91 7001821069<br>
+                    <strong>Email:</strong> info@carelyexport.com<br>
                 </p>
 
             </div>
@@ -58,21 +58,26 @@
 
     <div class="container mt-4">
         <div class="copyright">
-            &copy; Copyright <strong><span>Impact</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Carely Export</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
             <!-- All the links in the footer should remain intact. -->
             <!-- You can delete the links only if you purchased the pro version. -->
             <!-- Licensing information: https://bootstrapmade.com/license/ -->
             <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/impact-bootstrap-business-website-template/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            {{-- Designed by <a href="https://bootstrapmade.com/">Arghya</a> --}}
         </div>
     </div>
 
 </footer><!-- End Footer -->
 <!-- End Footer -->
-
-<a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+<div>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    <br>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+</div>
 
 <div id="preloader"></div>

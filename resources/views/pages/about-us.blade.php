@@ -6,51 +6,60 @@
 
             <div class="section-header">
                 <h2>About Us</h2>
-                <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id
-                    nobis omnis tiledo stran delop</p>
+                <h5>Welcome to Carely Export, a merchant exporting company committed to providing high-quality products and
+                    services to our clients worldwide.
+                    We are a team of experienced professionals dedicated to ensuring a smooth and successful export process
+                    for our clients.</h5>
             </div>
 
             <div class="row gy-4">
                 <div class="col-lg-6">
-                    <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                    <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid rounded-4 mb-4" alt="">
-                    <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia
-                        recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
-                    <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia
-                        vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus
-                        nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque
-                        deleniti repellendus.</p>
+                    <h3>
+                        Our Mission</h3>
+                    {{-- <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid rounded-4 mb-4" alt=""> --}}
+                    <p>Our mission is to provide our clients with high-quality products and services that meet their needs
+                        and exceed their expectations. We are committed to building long-term relationships based on trust,
+                        transparency, and excellent customer service.</p>
                 </div>
                 <div class="col-lg-6">
-                    <div class="content ps-0 ps-lg-5">
-                        <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
-                        </p>
-                        <ul>
-                            <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat.</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Duis aute irure dolor in reprehenderit in voluptate
-                                velit.</li>
-                            <li><i class="bi bi-check-circle-fill"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda
-                                mastiro dolore eu fugiat nulla pariatur.</li>
-                        </ul>
-                        <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                            in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident
-                        </p>
-
-                        <div class="position-relative mt-4">
-                            <img src="{{ asset('assets/img/about-2.jpg') }}" class="img-fluid rounded-4" alt="">
-                            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-                        </div>
-                    </div>
+                    <h3>Our Vision</h3>
+                    <p>Our vision is to become a leading merchant exporting company that is known for its high-quality
+                        products, exceptional customer service, and commitment to sustainability.
+                    </p>
                 </div>
             </div>
+            <div class="row gy-4">
+                <h3>Value</h3>
+                <p>At Carely Export, we believe in delivering value to our clients by offering
+                <div class="col-lg-4">
+                    <h4>Competitive Pricing</h4>
+                </div>
+                <div class="col-lg-4">
+                    <h4> Timely Delivery</h4>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Customized Solutions</h4>
+                </div>
+                that meet their unique needs.</p>
+            </div>
+
+            <div class="">
+                <h3>Who are we?</h3>
+                <p>We are a team of experienced professionals with a passion for international trade. Our team has extensive
+                    experience in exporting, and we are committed to ensuring that our clients' orders are processed
+                    smoothly and efficiently.</p>
+            </div>
+            <div>
+                <h3>What We Do?</h3>
+                <p>We specialize in exporting high-quality products to clients worldwide. Our flagship product,
+                    Vermicompost, is a premium quality, nutrient-rich, and sustainable. We are constantly exploring new
+                    markets and products to expand our portfolio and better serve our clients' needs. We work closely with
+                    our clients to understand their needs and provide flexible and customized solutions to meet those needs.
+                    If you are looking for a reliable and professional merchant exporting company to partner with, we invite
+                    you to learn more about our products and services and to contact us for more information. We look
+                    forward to the opportunity to work with you and to help you achieve your importing goals.</p>
+            </div>
+        </div>
 
         </div>
     </section><!-- End About Us Section -->

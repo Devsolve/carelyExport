@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,6 @@ Route::get('/', function () {
 
 Route::get('/{page_name}', [PageController::class, 'index'])->name('page-name');
 Route::get('/product/{product_name}', [PageController::class, 'product'])->name('product');
+
+Route::post('/contact-us/store', [\App\Http\Controllers\Frontend\ContactController::class, 'store'])->name('contact-us.store');
+

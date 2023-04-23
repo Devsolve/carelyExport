@@ -1,5 +1,5 @@
   <!-- ======= Header ======= -->
-  <section id="topbar" class="topbar d-flex align-items-center">
+  {{-- <section id="topbar" class="topbar d-flex align-items-center">
       <div class="container d-flex justify-content-center justify-content-md-between">
           <div class="contact-info d-flex align-items-center">
               <i class="bi bi-envelope d-flex align-items-center"><a
@@ -13,15 +13,17 @@
               <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
           </div>
       </div>
-  </section><!-- End Top Bar -->
+  </section> --}}
+
+  <!-- End Top Bar -->
 
   <header id="header" class="header d-flex align-items-center">
 
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="{{ route('home') }}" class="logo d-flex align-items-center">
               <!-- Uncomment the line below if you also wish to use an image logo -->
-              <!-- <img src="assets/img/logo.png" alt=""> -->
-              <h1>Impact<span>.</span></h1>
+              <img src="{{ asset('assets/img/carelyexport_icon.png') }}" alt="CarelyExport">
+              <h1><span>Carely Export</span></h1>
           </a>
           <nav id="navbar" class="navbar">
               <ul>
