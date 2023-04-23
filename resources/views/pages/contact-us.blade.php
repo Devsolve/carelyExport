@@ -65,24 +65,15 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form" id="contactForm">
-                        {{-- <div class="row">
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                required>
-                        </div>
-                        <div class="col-md-6 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Your Email" required>
-                        </div>
-                        </div> --}}
+                    <form action="{{ route('contact-us.store') }}" method="post" role="form" class="php-email-form" id="contactForm">
+                        @csrf
                         <div class="form-group mt-3">
                             <input type="text" name="name" class="form-control" id="name"
                                 placeholder="Your Name">
                         </div>
                         <div class="form-group mt-3">
                             <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Your Email">
+                                placeholder="Your Email" required>
                         </div>
                         <div class="row">
                             <div class="col-lg-3">
