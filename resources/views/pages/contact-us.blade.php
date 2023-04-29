@@ -1,15 +1,7 @@
 @extends('layouts.master')
 @section('content')
     @push('header_css')
-        <style>
-            .country-select .flag {
-                background-image: url("{{ asset('assets/libraries/country-select-js/img/flags.png') }}");
-            }
 
-            .country-select {
-                width: 100%;
-            }
-        </style>
     @endpush
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -41,7 +33,7 @@
                             <i class="bi bi-envelope flex-shrink-0"></i>
                             <div>
                                 <h4>Email:</h4>
-                                <p>info@carelyexport.com</p>
+                                <p><a href="mailto:info@carelyexport.com">info@carelyexport.com</a></p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -49,7 +41,7 @@
                             <i class="bi bi-phone flex-shrink-0"></i>
                             <div>
                                 <h4>Call:</h4>
-                                <p>+91 7001821069</p>
+                                <p><a href="tel:+917001821069">+91 7001821069</a></p>
                             </div>
                         </div><!-- End Info Item -->
 
@@ -75,16 +67,9 @@
                             <input type="email" class="form-control" name="email" id="email"
                                 placeholder="Your Email" required>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="form-group mt-3">
-                                    <input type="text" name="country_code" id="countryCode">
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <input type="text" class="form-control" name="mobile" id="mobile"
-                                    placeholder="Your Mobile">
-                            </div>
+                        <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="mobile" id="mobile"
+                                   placeholder="Your Mobile">
                         </div>
 
                         <div class="form-group mt-3">
@@ -93,6 +78,7 @@
                         <div class="form-group mt-3">
                             <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
                         </div>
+                        <input type="text" id="countryCode">
                         <div class="my-3">
                             <div class="loading">Loading</div>
                             <div class="error-message"></div>

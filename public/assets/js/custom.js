@@ -1,8 +1,20 @@
 $(document).ready(function () {
-    $("#countryCode").countrySelect({
-        defaultCountry: "in",
+    var input = document.querySelector("#mobile");
+    var iti = intlTelInput(input);
+    window.intlTelInput(input, {
+        utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+        separateDialCode: false,
+        autoPlaceholder: "off",
+        initialCountry: "auto",
+        geoIpLookup: callback => {
+            fetch("https://ipapi.co/json")
+                .then(res => res.json())
+                .then(data => callback(data.country_code))
+                .catch(() => callback("ind"));
+        },
     });
-
+    var number = iti.getNumber();
+    $('#countryCode').val(number);
     $("#contactForm").validate({
         rules: {
             name: {
@@ -13,9 +25,6 @@ $(document).ready(function () {
                 required: true,
                 email: true,
                 pattern: /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
-            },
-            country_code: {
-                required: true,
             },
             mobile: {
                 required: true,
@@ -33,9 +42,6 @@ $(document).ready(function () {
                 required: "Please input your email",
                 email: "Please input your valid email",
                 pattern: "Your email is not valid"
-            },
-            country_code: {
-                required: "Country Code is required",
             },
             mobile: {
                 required: "Please input your contact number",
