@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Exception;
 
+/**
+ *
+ */
 class PageController extends Controller
 {
     /**
@@ -12,18 +15,21 @@ class PageController extends Controller
     public function index(string $page_name)
     {
         try {
-            return view('pages/'.$page_name);
-        } catch (\Exception $e) {
-            abort(404, 'This page is not exist');
+            return view('pages/' . $page_name);
+        } catch (Exception $e) {
+            abort(404, $e->getMessage());
         }
     }
 
+    /*
+     *
+     */
     public function product(string $page_name)
     {
         try {
-            return view('pages/products/'.$page_name);
-        } catch (\Exception $e) {
-            abort(404, 'This page is not exist');
+            return view('pages/products/' . $page_name);
+        } catch (Exception $e) {
+            abort(404, $e->getMessage());
         }
     }
 }
