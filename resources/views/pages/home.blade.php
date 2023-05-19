@@ -1,87 +1,94 @@
 @extends('layouts.master')
 @section('content')
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="hero">
-        <div class="container position-relative">
-            <div class="row gy-5" data-aos="fade-in">
-                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-                    <h2>Welcome to <span>Carely Export</span> </h2>
-                    <h3>Your Reliable Partner in Global Trade. </h3>
-                    <p> We're dedicated to providing
-                        exceptional service and quality products to help you succeed in the global marketplace. </p>
-                    <div class="d-flex justify-content-center ">
-                        <a href="{{ route('page-name', 'about-us') }}" class="btn-get-started">Get Started</a>
-                        {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                            class="glightbox btn-watch-video d-flex align-items-center"><i
-                                class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
+    <section id="Hero_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-5 col-md-12">
+                    <div class="hero_content">
+                        <h1>Isometric webinar landing page</h1>
+                        <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all your
+                            agricultural needs. Our Vermicompost is made through a natural process of vermicomposting, </p>
+                        <a href="{{ route('page-name', 'contact-us') }}">Contect Now</a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1 order-lg-2">
-                    <img src="{{ asset('assets/img/Header_Background.svg') }}" class="img-fluid" alt=""
-                        data-aos="zoom-out" data-aos-delay="100">
+                <div class="col-xl-7 col-lg-7 col-md-12">
+                    <div class="hero_img">
+                        <img src="assets/img/hero_bg.png">
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="icon-boxes position-relative">
-            <div class="container position-relative">
-                <div class="row gy-4 mt-5">
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-easel"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link">Lorem Ipsum</a></h4>
-                        </div>
+    </section>
+    <!-- Value proposition and tagline for Carely Export -->
+    <section id="Value_propostion">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="Carely_Export">
+                        <h2 class="two_Color text-center">Value proposition <span>Carely Export</span></h2>
+                        <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable Partner in
+                                Global Trade</strong>. We're dedicated to providing exceptional service and quality products
+                            to
+                            help you succeed in the global marketplace. As an exporter, we're committed to going the extra
+                            mile
+                            to earn your trust and build a long-lasting partnership. With our extensive industry knowledge,
+                            attention to detail, and personalized approach, we make exporting easy and hassle-free. Plus, as
+                            we
+                            expand our product portfolio, you can count on us to continually offer new and innovative
+                            solutions
+                            to meet your needs.</p>
                     </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-gem"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link">Sed ut perspiciatis</a></h4>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-geo-alt"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link">Magni Dolores</a></h4>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
-                    <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
-                        <div class="icon-box">
-                            <div class="icon"><i class="bi bi-command"></i></div>
-                            <h4 class="title"><a href="" class="stretched-link">Nemo Enim</a></h4>
-                        </div>
-                    </div>
-                    <!--End Icon Box -->
-
                 </div>
             </div>
-        </div>
-
         </div>
     </section>
     <!-- End Hero Section -->
 
+
+
+
     <main id="main">
 
-        <!-- ======= Call To Action Section ======= -->
-        <section id="call-to-action" class="call-to-action">
-            <div class="container text-center" data-aos="zoom-out">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
-                <h3>Call To Action</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                    laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
+        {{-- trust seal start --}}
+        <section id="Provide_trustseal">
+            <div class="container">
+                <div class="row">
+                    <h2 class="two_Color text-center">Provide <span>trust seal</span></h2>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="client_logo">
+                                <img src="assets/img/trustlogo-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client_logo">
+                                <img src="assets/img/trustlogo-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client_logo">
+                                <img src="assets/img/trustlogo-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client_logo">
+                                <img src="assets/img/trustlogo-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="client_logo">
+                                <img src="assets/img/trustlogo-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section><!-- End Call To Action Section -->
+        </section>
 
-        <!-- ======= Our Services Section ======= -->
+        {{-- trust seal end --}}
+
+
         <section id="services" class="services sections-bg">
             <div class="container" data-aos="fade-up">
 
