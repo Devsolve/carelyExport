@@ -1,54 +1,61 @@
 @extends('layouts.master')
 @section('content')
-    <!-- ======= Hero Section ======= -->
-    <section id="Hero_banner">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-5 col-md-12">
-                    <div class="hero_content">
-                        <h1>Isometric webinar landing page</h1>
-                        <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all your
-                            agricultural needs. Our Vermicompost is made through a natural process of vermicomposting, </p>
-                        <a href="{{ route('page-name', 'contact-us') }}">Contect Now</a>
-                    </div>
-                </div>
-                <div class="col-xl-7 col-lg-7 col-md-12">
-                    <div class="hero_img">
-                        <img src="assets/img/hero_bg.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Value proposition and tagline for Carely Export -->
-    <section id="Value_propostion">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="Carely_Export">
-                        <h2 class="two_Color text-center">Value proposition <span>Carely Export</span></h2>
-                        <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable Partner in
-                                Global Trade</strong>. We're dedicated to providing exceptional service and quality products
-                            to
-                            help you succeed in the global marketplace. As an exporter, we're committed to going the extra
-                            mile
-                            to earn your trust and build a long-lasting partnership. With our extensive industry knowledge,
-                            attention to detail, and personalized approach, we make exporting easy and hassle-free. Plus, as
-                            we
-                            expand our product portfolio, you can count on us to continually offer new and innovative
-                            solutions
-                            to meet your needs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Hero Section -->
-
-
-
-
     <main id="main">
+        <!-- ======= Hero Section ======= -->
+        <section id="Hero_banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5 col-md-12">
+                        <div class="hero_content">
+                            <h1>Isometric webinar landing page</h1>
+                            <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all your
+                                agricultural needs. Our Vermicompost is made through a natural process of vermicomposting,
+                            </p>
+                            <a href="{{ route('page-name', 'contact-us') }}">Contect Now</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12">
+                        <div class="hero_img">
+                            <img src="assets/img/hero_bg.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Value proposition and tagline for Carely Export -->
+        <section id="Value_propostion">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="Carely_Export">
+                            <h2 class="two_Color text-center">Value proposition <span>Carely Export</span></h2>
+                            <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable Partner
+                                    in
+                                    Global Trade</strong>. We're dedicated to providing exceptional service and quality
+                                products
+                                to
+                                help you succeed in the global marketplace. As an exporter, we're committed to going the
+                                extra
+                                mile
+                                to earn your trust and build a long-lasting partnership. With our extensive industry
+                                knowledge,
+                                attention to detail, and personalized approach, we make exporting easy and hassle-free.
+                                Plus, as
+                                we
+                                expand our product portfolio, you can count on us to continually offer new and innovative
+                                solutions
+                                to meet your needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+
+
+
+
+
 
         {{-- trust seal start --}}
         <section id="Provide_trustseal">
@@ -89,704 +96,381 @@
         {{-- trust seal end --}}
 
 
-        <section id="services" class="services sections-bg">
-            <div class="container" data-aos="fade-up">
+        {{-- popular products corusel start --}}
 
-                <div class="section-header">
-                    <h2>Our Services</h2>
-                    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id
-                        nobis omnis tiledo stran delop</p>
-                </div>
 
-                <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item  position-relative">
-                            <div class="icon">
-                                <i class="bi bi-activity"></i>
-                            </div>
-                            <h3>Nesciunt Mete</h3>
-                            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure
-                                perferendis tempore et consequatur.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-broadcast"></i>
-                            </div>
-                            <h3>Eosle Commodi</h3>
-                            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic
-                                non ut nesciunt dolorem.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-easel"></i>
-                            </div>
-                            <h3>Ledo Markt</h3>
-                            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas
-                                adipisci eos earum corrupti.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-bounding-box-circles"></i>
-                            </div>
-                            <h3>Asperiores Commodit</h3>
-                            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit
-                                provident adipisci neque.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-calendar4-week"></i>
-                            </div>
-                            <h3>Velit Doloremque</h3>
-                            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi
-                                at autem alias eius labore.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service-item position-relative">
-                            <div class="icon">
-                                <i class="bi bi-chat-square-text"></i>
-                            </div>
-                            <h3>Dolori Architecto</h3>
-                            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure.
-                                Corrupti recusandae ducimus enim.</p>
-                            <a href="#" class="readmore stretched-link">Read more <i
-                                    class="bi bi-arrow-right"></i></a>
-                        </div>
-                    </div><!-- End Service Item -->
-
-                </div>
-
-            </div>
-        </section><!-- End Our Services Section -->
-
-        <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Testimonials</h2>
-                    <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti
-                        fignissimos eos quam</p>
-                </div>
-
-                <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper">
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{ asset('assets/img/testimonials/testimonials-1.jpg') }}"
-                                            class="testimonial-img flex-shrink-0" alt="">
-                                        <div>
-                                            <h3>Saul Goodman</h3>
-                                            <h4>Ceo &amp; Founder</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit
-                                        rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam,
-                                        risus at semper.
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{ asset('assets/img/testimonials/testimonials-2.jpg') }}"
-                                            class="testimonial-img flex-shrink-0" alt="">
-                                        <div>
-                                            <h3>Sara Wilsson</h3>
-                                            <h4>Designer</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid
-                                        cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet
-                                        legam anim culpa.
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{ asset('assets/img/testimonials/testimonials-3.jpg') }}"
-                                            class="testimonial-img flex-shrink-0" alt="">
-                                        <div>
-                                            <h3>Jena Karlis</h3>
-                                            <h4>Store Owner</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem
-                                        veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
-                                        minim.
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{ asset('assets/img/testimonials/testimonials-4.jpg') }}"
-                                            class="testimonial-img flex-shrink-0" alt="">
-                                        <div>
-                                            <h3>Matt Brandon</h3>
-                                            <h4>Freelancer</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim
-                                        fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem
-                                        dolore.
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-wrap">
-                                <div class="testimonial-item">
-                                    <div class="d-flex align-items-center">
-                                        <img src="{{ asset('assets/img/testimonials/testimonials-5.jpg') }}"
-                                            class="testimonial-img flex-shrink-0" alt="">
-                                        <div>
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <p>
-                                        <i class="bi bi-quote quote-icon-left"></i>
-                                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
-                                        veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam
-                                        culpa fore.
-                                        <i class="bi bi-quote quote-icon-right"></i>
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End testimonial item -->
-
+        <section id="Popular_Products">
+            <div class="container">
+                <div class="row">
+                    <div class="com-md-12">
+                        <h2 class="two_Color text-center">Popular <span> Products</span></h2>
+                        <p class="paragraph_value text-center mt-5 mb-5">Introducing Carely Export's premium Vermicompost,
+                            the
+                            ultimate soil amendment for all your agricultural needs. Our Vermicompost is made through a
+                            natural
+                            process of vermicomposting, which utilizes earthworms to transform organic Animal waste into a
+                            nutrient-rich fertilizer.Our vermicompost is carefully crafted to ensure maximum nutrient
+                            retention
+                            and plant uptake, providing your crops with the essential elements they need to thrive.</p>
                     </div>
-                    <div class="swiper-pagination"></div>
                 </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel owl-loaded owl-drag" id="featured">
+                            <div class="owl-stage-outer">
+                                <div class="owl-stage"
+                                    style="transform: translate3d(-4560px, 0px, 0px); transition: all 5s ease 5s; width: 9120px;">
+                                    <div class="owl-item cloned" style="width: 1110px; margin-right: 30px;">
+                                        <div class="item">
+                                            <div class="work-wrap d-flex">
+                                                <div class="img "
+                                                    style="background-image: url(assets/img/istockphoto-153737841-170667a.jpg);">
+                                                </div>
+                                                <div class="text text-left  p-4 px-xl-5 d-flex align-items-center">
+                                                    <div class="py-md-5">
+                                                        <h2 class="mb-4">Rice</h2>
+                                                        <div class="row">
+                                                            <div class="col-xl-8">
+                                                                <p>Experience the finest quality rice with Carely Export.
+                                                                    Our carefully
+                                                                    selected rice varieties are sourced from trusted
+                                                                    suppliers, ensuring
+                                                                    exceptional taste, texture, and aroma. Whether you're
+                                                                    looking for
+                                                                    Basmati rice, Jasmine rice, or other popular varieties,
+                                                                    we offer a range
+                                                                    of options to suit your culinary preferences. Discover
+                                                                    the perfect rice
+                                                                    for your meals and elevate your dining experience with
+                                                                    Carely Export.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">Learn
+                                                                More</button>
+                                                        </p>
+                                                    </div>
+                                                </div>
 
-            </div>
-        </section><!-- End Testimonials Section -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-item cloned" style="width: 1110px; margin-right: 30px;">
+                                        <div class="item">
+                                            <div class="work-wrap d-md-flex">
+                                                <div class="img"
+                                                    style="background-image: url(assets/img/Vermicompost_Factory_-_panoramio__3_1100x.jpg);">
+                                                </div>
+                                                <div
+                                                    class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
+                                                    <div class="py-md-5">
+                                                        <h2 class="mb-4">Vermicompost</h2>
+                                                        <div class="row">
+                                                            <div class="col-xl-8">
+                                                                <p>Experience the finest quality rice with Carely Export.
+                                                                    Our carefully
+                                                                    selected rice varieties are sourced from trusted
+                                                                    suppliers, ensuring
+                                                                    exceptional taste, texture, and aroma. Whether you're
+                                                                    looking for
+                                                                    Basmati rice, Jasmine rice, or other popular varieties,
+                                                                    we offer a range
+                                                                    of options to suit your culinary preferences. Discover
+                                                                    the perfect rice
+                                                                    for your meals and elevate your dining experience with
+                                                                    Carely Export.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">Learn
+                                                                More</button>
+                                                        </p>
+                                                    </div>
+                                                </div>
 
-        <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio sections-bg">
-            <div class="container" data-aos="fade-up">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-nav">
+                                <button type="button" role="presentation" class="owl-prev">
+                                    <p><small>Prev</small><span class="ion-ios-arrow-round-back"></span></p>
+                                </button>
+                                <button type="button" role="presentation" class="owl-next">
+                                    <p><small>Next</small><span class="ion-ios-arrow-round-forward"></span></p>
+                                </button>
+                            </div>
 
-                <div class="section-header">
-                    <h2>Portfolio</h2>
-                    <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem
-                        uia reprehenderit sunt deleniti</p>
-                </div>
-
-                <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
-                    data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-
-                    <div>
-                        <ul class="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-product">Product</li>
-                            <li data-filter=".filter-branding">Branding</li>
-                            <li data-filter=".filter-books">Books</li>
-                        </ul><!-- End Portfolio Filters -->
+                            <div class="owl-dots">
+                                <button role="button" class="owl-dot">
+                                    <span></span>
+                                </button>
+                                <button role="button" class="owl-dot">
+                                    <span></span>
+                                </button><button role="button" class="owl-dot active">
+                                    <span></span>
+                                </button><button role="button" class="owl-dot">
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="row gy-4 portfolio-container">
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/app-1.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/app-1.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">App 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/product-1.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/product-1.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Product 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/branding-1.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/branding-1.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Branding 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/books-1.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/books-1.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Books 1</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/app-2.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/app-2.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">App 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/product-2.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/product-2.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Product 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/branding-2.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/branding-2.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Branding 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/books-2.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/books-2.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Books 2</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/app-3.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/app-3.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">App 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/product-3.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/product-3.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Product 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/branding-3.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/branding-3.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Branding 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-                            <div class="portfolio-wrap">
-                                <a href="{{ asset('assets/img/portfolio/books-3.jpg') }}"
-                                    data-gallery="portfolio-gallery-app" class="glightbox"><img
-                                        src="{{ asset('assets/img/portfolio/books-3.jpg') }}" class="img-fluid"
-                                        alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Books 3</a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
-                                </div>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                    </div><!-- End Portfolio Container -->
-
                 </div>
-
             </div>
-        </section><!-- End Portfolio Section -->
-
-        <!-- ======= Our Team Section ======= -->
-        <section id="team" class="team">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Our Team</h2>
-                    <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
-                        dolorem dolore earum</p>
-                </div>
-
-                <div class="row gy-4">
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-                        <div class="member">
-                            <img src="{{ asset('assets/img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                            <h4>Walter White</h4>
-                            <span>Web Development</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <div class="member">
-                            <img src="{{ asset('assets/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                            <h4>Sarah Jhinson</h4>
-                            <span>Marketing</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-                        <div class="member">
-                            <img src="{{ asset('assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
-                            <h4>William Anderson</h4>
-                            <span>Content</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-                        <div class="member">
-                            <img src="{{ asset('assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div><!-- End Team Member -->
-
-                </div>
-
             </div>
-        </section><!-- End Our Team Section -->
+        </section>
 
-        <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing sections-bg">
-            <div class="container" data-aos="fade-up">
+        {{-- popular products corusel end --}}
 
-                <div class="section-header">
-                    <h2>Pricing</h2>
-                    <p>Aperiam dolorum et et wuia molestias qui eveniet numquam nihil porro incidunt dolores placeat sunt id
-                        nobis omnis tiledo stran delop</p>
+
+
+        {{-- why choose us start --}}
+
+
+        <section id="why_choose_us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="section-title text-center">
+                            <span class="pre-title">CARELY EXPORT</span>
+                            <h3 class="title">Why choose us ?</h3>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
-
-                    <div class="col-lg-4">
-                        <div class="pricing-item">
-                            <h3>Free Plan</h3>
-                            <div class="icon">
-                                <i class="bi bi-box"></i>
+                <div class="container py-5">
+                    <div class="main-timeline-4 text-white">
+                        <div class="timeline-4 left-4">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/quality-service.png" alt="">
+                                    <h4>Product Quality</h4>
+                                    <p>At Carely Export, we guarantee high-quality products that meet international
+                                        standards and
+                                        are
+                                        thoroughly inspected before shipment to ensure they meet mporters' specifications
+                                        and
+                                        requirements.
+                                    </p>
+                                </div>
                             </div>
-                            <h4><sup>$</sup>0<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span>
-                                </li>
-                                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span>
-                                </li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                         </div>
-                    </div><!-- End Pricing Item -->
-
-                    <div class="col-lg-4">
-                        <div class="pricing-item featured">
-                            <h3>Business Plan</h3>
-                            <div class="icon">
-                                <i class="bi bi-airplane"></i>
+                        <div class="timeline-4 right-4">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/unique.png" alt="">
+                                    <h4>Competing Pricing</h4>
+                                    <p>At Carely Export, we provide competitive and transparent pricing on our products,
+                                        with
+                                        flexible
+                                        options based on customer needs, to offer the best value for money for our
+                                        importers.
+                                    </p>
+                                </div>
                             </div>
-
-                            <h4><sup>$</sup>29<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                         </div>
-                    </div><!-- End Pricing Item -->
-
-                    <div class="col-lg-4">
-                        <div class="pricing-item">
-                            <h3>Developer Plan</h3>
-                            <div class="icon">
-                                <i class="bi bi-send"></i>
+                        <div class="timeline-4 left-4">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/fast-delivery.png" alt="">
+                                    <h4>Timely Delivery/Reliable Shipping</h4>
+                                    <p>At Carely Export, we have a strong logistics network that ensures reliable and timely
+                                        delivery with
+                                        regular updates and proactive issue resolution, meeting our clients' deadlines and
+                                        handling
+                                        all
+                                        export documentation for a smooth shipping process.
+                                    </p>
+                                </div>
                             </div>
-                            <h4><sup>$</sup>49<span> / month</span></h4>
-                            <ul>
-                                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
-                            </ul>
-                            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
                         </div>
-                    </div><!-- End Pricing Item -->
-
+                        <div class="timeline-4 right-4">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/customer-service.png" alt="">
+                                    <h4>Customer Service</h4>
+                                    <p>At Carely Export, we prioritize exceptional customer service by offering personalized
+                                        solutions,
+                                        working closely with clients to understand their unique needs, and providing expert
+                                        support
+                                        and
+                                        responsiveness to ensure their satisfaction and success in the global marketplace
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-4 left-4">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/statistics.png" alt="">
+                                    <h4>Growing Portfolio of Products</h4>
+                                    <p>The Indian government's favorable policies, such as tax incentives, export promotion
+                                        zones,
+                                        and
+                                        free trade agreements, have created a business-friendly environment that encourages
+                                        foreign
+                                        investment and boosts exports. This means that importers can enjoy quality products
+                                        at a
+                                        competitive price, while also benefiting from the country's technical expertise and
+                                        skilled
+                                        workforce.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-4 right-4">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <img src="assets/img/logistic.png" alt="">
+                                    <h4>Hassle-Free Imports with Carely Export</h4>
+                                    <p>Carely Export offers a comprehensive solution to handle all aspects of the import
+                                        process,
+                                        allowing
+                                        importers to focus on their core business while we take care of sourcing, quality
+                                        control,
+                                        customs
+                                        clearance, and logistics.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-        </section><!-- End Pricing Section -->
+            </div>
+        </section>
 
-        <!-- ======= Frequently Asked Questions Section ======= -->
-        <section id="faq" class="faq">
-            <div class="container" data-aos="fade-up">
+        {{-- why choose us end --}}
 
-                <div class="row gy-4">
 
-                    <div class="col-lg-4">
-                        <div class="content px-xl-5">
-                            <h3>Frequently Asked <strong>Questions</strong></h3>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+
+        <!-- call to action start -->
+
+        <section id="call_to_act">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content_cta">
+                            <p class="text-center">
+                                Looking to import products with ease and confidence? Look no further than Carely Export! Our
+                                comprehensive import services, including sourcing, quality control, customs clearance, and
+                                logistics, make importing simple and stress-free. With our expertise in international trade
+                                and
+                                commitment to customer satisfaction, you can trust us to handle all aspects of your imports
+                                with
+                                professionalism and efficiency.
+                            </p>
+
+                            <h5 class="text-center">"Join us now and import with confidence - experience seamless
+                                logistics, get
+                                the best value, and start hassle-free importing with Carely Export!"</h5>
+
+                            <div class="button_cta_pro d-flex align-items-center justify-content-center">
+                                <a href="{{ route('page-name', 'contact-us') }}">Get Quote Now</a>
+                                <a href="#">View More Products</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- call to action end -->
+
+
+        <!-- why should India choose start -->
+
+        <section id="Why_importers_should">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="two_Color text-center">Why importers should <span> choose India </span></h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">1</span>
+                            <h4 class="cars_title">
+                                Cost-effective production
+                            </h4>
+                            <p>India is known for its cost-effective production, which means that products manufactured in
+                                India
+                                can be exported at a relatively lower cost. This makes Indian products competitive in the
+                                global
+                                market, which is attractive for importers looking for cost-effective products.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">2</span>
+                            <h4 class="cars_title">
+                                Abundant natural resources
+                            </h4>
+                            <p>India's diverse natural resource base, including minerals, agricultural products, and other
+                                raw
+                                materials, provides manufacturers with easy access to high-quality inputs, resulting in
+                                high-quality finished products.
                             </p>
                         </div>
                     </div>
-
-                    <div class="col-lg-8">
-
-                        <div class="accordion accordion-flush" id="faqlist" data-aos="fade-up" data-aos-delay="100">
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-1">
-                                        <span class="num">1.</span>
-                                        Non consectetur a erat nam at lectus urna duis?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                        non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                        purus non.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-2">
-                                        <span class="num">2.</span>
-                                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-3">
-                                        <span class="num">3.</span>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                        pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                        Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                        tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-4">
-                                        <span class="num">4.</span>
-                                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                        velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                        donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                        cursus turpis massa tincidunt dui.
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
-                            <div class="accordion-item">
-                                <h3 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#faq-content-5">
-                                        <span class="num">5.</span>
-                                        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
-                                    </button>
-                                </h3>
-                                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                                    <div class="accordion-body">
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                        est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                        suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                    </div>
-                                </div>
-                            </div><!-- # Faq item-->
-
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">3</span>
+                            <h4 class="cars_title">
+                                India's Skilled Workforce
+                            </h4>
+                            <p>A Competitive Advantage for High-Quality and Specialized Products.</p>
                         </div>
-
                     </div>
                 </div>
-
+                <div class="row">
+                    <div class="shaps">
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">4</span>
+                            <h4 class="cars_title">
+                                Favorable government policies
+                            </h4>
+                            <p>The Indian government's favorable policies, such as tax incentives, export promotion zones,
+                                and
+                                free trade agreements, have created a business-friendly environment that encourages foreign
+                                investment and boosts exports. This means that importers can enjoy quality products at a
+                                competitive price, while also benefiting from the country's technical expertise and skilled
+                                workforce.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">5</span>
+                            <h4 class="cars_title">
+                                Diverse Indian Products for Endless Possibilities
+                            </h4>
+                            <p>India's diverse range of products and industries offers endless possibilities for importers
+                                seeking
+                                quality goods.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
+                        <div class="card_importers">
+                            <span class="card_number">6</span>
+                            <h4 class="cars_title">
+                                Cultural Affinity
+                            </h4>
+                            <p>A Boon for Importers Dealing with India:Unlocking trust and facilitating business
+                                relationships,
+                                India's strong cultural ties with the world offer a competitive edge for importers</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section><!-- End Frequently Asked Questions Section -->
+        </section>
+
+        <!-- why should India choose end -->
+
     </main><!-- End #main -->
 @endsection

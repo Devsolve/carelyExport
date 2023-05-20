@@ -49,7 +49,7 @@
           <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
       </div>
-  </header> --}} --}}
+  </header> --}}
 
 
   <!-- End Header -->
@@ -59,7 +59,7 @@
   <header id="siteheader">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container">
-              <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+              <a class="navbar-brand" href="{{ route('home') }}"><img src="assets/img/logo.png" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
 
 
                       <li class="nav-item">
-                          <a class="nav-link" href="{{ route('page-name', 'about-us') }}">About Us</a>
+                          <a class="nav-link " href="{{ route('page-name', 'about-us') }}">About Us</a>
                       </li>
 
 
@@ -86,7 +86,7 @@
                           </ul>
                       </li> --}}
 
-                      {{--     <li class="nav-item dropdown">
+                      <li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                               data-bs-toggle="dropdown" aria-expanded="false">
                               Product
@@ -109,7 +109,7 @@
                                   </ul>
                               </li>
                           </ul>
-                      </li> --}}
+                      </li>
 
 
                       {{-- <li><a href="{{ route('page-name', 'blog') }}">Blog</a></li> --}}
