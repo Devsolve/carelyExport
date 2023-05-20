@@ -37,6 +37,7 @@
 @endif
 @if(request()->route()->getName() === 'contact-us')
     <link rel="stylesheet" href="{{ asset('assets/css/Contact-us.css') }}">
+    @include('layouts.assets.css.contact_us')
 @endif
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">

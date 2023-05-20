@@ -4,6 +4,7 @@
     @endpush
     <!-- ======= Contact Section ======= -->
     <!-- Page-wrapper-Start -->
+    <body>
     <div class="page_wrapper">
 
 
@@ -13,9 +14,9 @@
 
             <div class="banner_shapes">
                 <div class="container">
-                    <span><img src="assets/img/plus.svg" alt="image"></span>
-                    <span><img src="assets/img/polygon.svg" alt="image"></span>
-                    <span><img src="assets/img/round.svg" alt="image"></span>
+                    <span><img src="{{ asset('assets/img/plus.svg') }}" alt="image"></span>
+                    <span><img src="{{ asset('assets/img/polygon.svg') }}" alt="image"></span>
+                    <span><img src="{{ asset('assets/img/round.svg') }}" alt="image"></span>
                 </div>
             </div>
 
@@ -56,7 +57,7 @@
                     <a class="hover_action" href="mailto:info@carelyexport.com">
                         <div class="c_list_card">
                             <div class="icons">
-                                <img src="assets/img/mail.png" alt="image">
+                                <img src="{{ asset('assets/img/mail.png') }}" alt="image">
                                 <div class="dot_block">
                                     <span class="dot_anim"></span>
                                     <span class="dot_anim"></span>
@@ -74,7 +75,7 @@
                     <!-- card -->
                     <div class="c_list_card">
                         <div class="icons">
-                            <img src="assets/img/location.png" alt="image">
+                            <img src="{{ asset('assets/img/location.png') }}" alt="image">
                             <div class="dot_block">
                                 <span class="dot_anim"></span>
                                 <span class="dot_anim"></span>
@@ -93,7 +94,7 @@
                     <a href="tel:+91 7001821069">
                         <div class="c_list_card">
                             <div class="icons">
-                                <img src="assets/img/phone.png" alt="image">
+                                <img src="{{ asset('assets/img/phone.png') }}" alt="image">
                                 <div class="dot_block">
                                     <span class="dot_anim"></span>
                                     <span class="dot_anim"></span>
@@ -170,7 +171,7 @@
                         </form>
 
                         <!-- <div class="form-graphic">
-                                       <img src="assets/img/paperplane.png" alt="image">
+                                       <img src="{{ asset('assets/img/paperplane.png') }}" alt="image">
                                     </div> -->
                     </div>
 
@@ -191,10 +192,10 @@
 
 
         <!-- Contact Us form End -->
+    </div>
 
 
 
-        </body>
 
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
