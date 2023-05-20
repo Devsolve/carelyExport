@@ -1,0 +1,7 @@
+header#siteheader {
+    position: inherit;
+}
+
+header#siteheader .bg-light {
+    background-color: #ffead9 !important;
+}

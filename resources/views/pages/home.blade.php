@@ -8,15 +8,17 @@
                     <div class="col-xl-5 col-lg-5 col-md-12">
                         <div class="hero_content">
                             <h1>Isometric webinar landing page</h1>
-                            <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all your
-                                agricultural needs. Our Vermicompost is made through a natural process of vermicomposting,
+                            <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all
+                                your
+                                agricultural needs. Our Vermicompost is made through a natural process of
+                                vermicomposting,
                             </p>
                             <a href="{{ route('page-name', 'contact-us') }}">Contect Now</a>
                         </div>
                     </div>
                     <div class="col-xl-7 col-lg-7 col-md-12">
                         <div class="hero_img">
-                            <img src="assets/img/hero_bg.png">
+                            <img src="{{ asset('assets/img/hero_bg.png') }}">
                         </div>
                     </div>
                 </div>
@@ -29,7 +31,8 @@
                     <div class="col-md-12">
                         <div class="Carely_Export">
                             <h2 class="two_Color text-center">Value proposition <span>Carely Export</span></h2>
-                            <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable Partner
+                            <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable
+                                    Partner
                                     in
                                     Global Trade</strong>. We're dedicated to providing exceptional service and quality
                                 products
@@ -42,7 +45,8 @@
                                 attention to detail, and personalized approach, we make exporting easy and hassle-free.
                                 Plus, as
                                 we
-                                expand our product portfolio, you can count on us to continually offer new and innovative
+                                expand our product portfolio, you can count on us to continually offer new and
+                                innovative
                                 solutions
                                 to meet your needs.</p>
                         </div>
@@ -51,10 +55,6 @@
             </div>
         </section>
         <!-- End Hero Section -->
-
-
-
-
 
 
         {{-- trust seal start --}}
@@ -104,11 +104,13 @@
                 <div class="row">
                     <div class="com-md-12">
                         <h2 class="two_Color text-center">Popular <span> Products</span></h2>
-                        <p class="paragraph_value text-center mt-5 mb-5">Introducing Carely Export's premium Vermicompost,
+                        <p class="paragraph_value text-center mt-5 mb-5">Introducing Carely Export's premium
+                            Vermicompost,
                             the
                             ultimate soil amendment for all your agricultural needs. Our Vermicompost is made through a
                             natural
-                            process of vermicomposting, which utilizes earthworms to transform organic Animal waste into a
+                            process of vermicomposting, which utilizes earthworms to transform organic Animal waste into
+                            a
                             nutrient-rich fertilizer.Our vermicompost is carefully crafted to ensure maximum nutrient
                             retention
                             and plant uptake, providing your crops with the essential elements they need to thrive.</p>
@@ -119,36 +121,43 @@
                         <div class="owl-carousel owl-loaded owl-drag" id="featured">
                             <div class="owl-stage-outer">
                                 <div class="owl-stage"
-                                    style="transform: translate3d(-4560px, 0px, 0px); transition: all 5s ease 5s; width: 9120px;">
+                                     style="transform: translate3d(-4560px, 0px, 0px); transition: all 5s ease 5s; width: 9120px;">
                                     <div class="owl-item cloned" style="width: 1110px; margin-right: 30px;">
                                         <div class="item">
                                             <div class="work-wrap d-flex">
                                                 <div class="img "
-                                                    style="background-image: url(assets/img/istockphoto-153737841-170667a.jpg);">
+                                                     style="background-image: url({{ asset('assets/img/istockphoto-153737841-170667a.jpg') }});">
                                                 </div>
                                                 <div class="text text-left  p-4 px-xl-5 d-flex align-items-center">
                                                     <div class="py-md-5">
                                                         <h2 class="mb-4">Rice</h2>
                                                         <div class="row">
                                                             <div class="col-xl-8">
-                                                                <p>Experience the finest quality rice with Carely Export.
+                                                                <p>Experience the finest quality rice with Carely
+                                                                    Export.
                                                                     Our carefully
                                                                     selected rice varieties are sourced from trusted
                                                                     suppliers, ensuring
-                                                                    exceptional taste, texture, and aroma. Whether you're
+                                                                    exceptional taste, texture, and aroma. Whether
+                                                                    you're
                                                                     looking for
-                                                                    Basmati rice, Jasmine rice, or other popular varieties,
+                                                                    Basmati rice, Jasmine rice, or other popular
+                                                                    varieties,
                                                                     we offer a range
-                                                                    of options to suit your culinary preferences. Discover
+                                                                    of options to suit your culinary preferences.
+                                                                    Discover
                                                                     the perfect rice
-                                                                    for your meals and elevate your dining experience with
+                                                                    for your meals and elevate your dining experience
+                                                                    with
                                                                     Carely Export.
                                                                 </p>
                                                             </div>
                                                         </div>
                                                         <p>
-                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">Learn
-                                                                More</button>
+                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">
+                                                                Learn
+                                                                More
+                                                            </button>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -160,7 +169,7 @@
                                         <div class="item">
                                             <div class="work-wrap d-md-flex">
                                                 <div class="img"
-                                                    style="background-image: url(assets/img/Vermicompost_Factory_-_panoramio__3_1100x.jpg);">
+                                                     style="background-image: url(assets/img/Vermicompost_Factory_-_panoramio__3_1100x.jpg);">
                                                 </div>
                                                 <div
                                                     class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
@@ -168,24 +177,31 @@
                                                         <h2 class="mb-4">Vermicompost</h2>
                                                         <div class="row">
                                                             <div class="col-xl-8">
-                                                                <p>Experience the finest quality rice with Carely Export.
+                                                                <p>Experience the finest quality rice with Carely
+                                                                    Export.
                                                                     Our carefully
                                                                     selected rice varieties are sourced from trusted
                                                                     suppliers, ensuring
-                                                                    exceptional taste, texture, and aroma. Whether you're
+                                                                    exceptional taste, texture, and aroma. Whether
+                                                                    you're
                                                                     looking for
-                                                                    Basmati rice, Jasmine rice, or other popular varieties,
+                                                                    Basmati rice, Jasmine rice, or other popular
+                                                                    varieties,
                                                                     we offer a range
-                                                                    of options to suit your culinary preferences. Discover
+                                                                    of options to suit your culinary preferences.
+                                                                    Discover
                                                                     the perfect rice
-                                                                    for your meals and elevate your dining experience with
+                                                                    for your meals and elevate your dining experience
+                                                                    with
                                                                     Carely Export.
                                                                 </p>
                                                             </div>
                                                         </div>
                                                         <p>
-                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">Learn
-                                                                More</button>
+                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">
+                                                                Learn
+                                                                More
+                                                            </button>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -210,16 +226,17 @@
                                 </button>
                                 <button role="button" class="owl-dot">
                                     <span></span>
-                                </button><button role="button" class="owl-dot active">
+                                </button>
+                                <button role="button" class="owl-dot active">
                                     <span></span>
-                                </button><button role="button" class="owl-dot">
+                                </button>
+                                <button role="button" class="owl-dot">
                                     <span></span>
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -250,7 +267,8 @@
                                     <p>At Carely Export, we guarantee high-quality products that meet international
                                         standards and
                                         are
-                                        thoroughly inspected before shipment to ensure they meet mporters' specifications
+                                        thoroughly inspected before shipment to ensure they meet mporters'
+                                        specifications
                                         and
                                         requirements.
                                     </p>
@@ -276,9 +294,11 @@
                                 <div class="card-body p-4">
                                     <img src="assets/img/fast-delivery.png" alt="">
                                     <h4>Timely Delivery/Reliable Shipping</h4>
-                                    <p>At Carely Export, we have a strong logistics network that ensures reliable and timely
+                                    <p>At Carely Export, we have a strong logistics network that ensures reliable and
+                                        timely
                                         delivery with
-                                        regular updates and proactive issue resolution, meeting our clients' deadlines and
+                                        regular updates and proactive issue resolution, meeting our clients' deadlines
+                                        and
                                         handling
                                         all
                                         export documentation for a smooth shipping process.
@@ -291,12 +311,15 @@
                                 <div class="card-body p-4">
                                     <img src="assets/img/customer-service.png" alt="">
                                     <h4>Customer Service</h4>
-                                    <p>At Carely Export, we prioritize exceptional customer service by offering personalized
+                                    <p>At Carely Export, we prioritize exceptional customer service by offering
+                                        personalized
                                         solutions,
-                                        working closely with clients to understand their unique needs, and providing expert
+                                        working closely with clients to understand their unique needs, and providing
+                                        expert
                                         support
                                         and
-                                        responsiveness to ensure their satisfaction and success in the global marketplace
+                                        responsiveness to ensure their satisfaction and success in the global
+                                        marketplace
                                     </p>
                                 </div>
                             </div>
@@ -306,14 +329,18 @@
                                 <div class="card-body p-4">
                                     <img src="assets/img/statistics.png" alt="">
                                     <h4>Growing Portfolio of Products</h4>
-                                    <p>The Indian government's favorable policies, such as tax incentives, export promotion
+                                    <p>The Indian government's favorable policies, such as tax incentives, export
+                                        promotion
                                         zones,
                                         and
-                                        free trade agreements, have created a business-friendly environment that encourages
+                                        free trade agreements, have created a business-friendly environment that
+                                        encourages
                                         foreign
-                                        investment and boosts exports. This means that importers can enjoy quality products
+                                        investment and boosts exports. This means that importers can enjoy quality
+                                        products
                                         at a
-                                        competitive price, while also benefiting from the country's technical expertise and
+                                        competitive price, while also benefiting from the country's technical expertise
+                                        and
                                         skilled
                                         workforce.
                                     </p>
@@ -328,7 +355,8 @@
                                     <p>Carely Export offers a comprehensive solution to handle all aspects of the import
                                         process,
                                         allowing
-                                        importers to focus on their core business while we take care of sourcing, quality
+                                        importers to focus on their core business while we take care of sourcing,
+                                        quality
                                         control,
                                         customs
                                         clearance, and logistics.
@@ -337,7 +365,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 
@@ -353,11 +380,15 @@
                     <div class="col-md-12">
                         <div class="content_cta">
                             <p class="text-center">
-                                Looking to import products with ease and confidence? Look no further than Carely Export! Our
-                                comprehensive import services, including sourcing, quality control, customs clearance, and
-                                logistics, make importing simple and stress-free. With our expertise in international trade
+                                Looking to import products with ease and confidence? Look no further than Carely Export!
+                                Our
+                                comprehensive import services, including sourcing, quality control, customs clearance,
                                 and
-                                commitment to customer satisfaction, you can trust us to handle all aspects of your imports
+                                logistics, make importing simple and stress-free. With our expertise in international
+                                trade
+                                and
+                                commitment to customer satisfaction, you can trust us to handle all aspects of your
+                                imports
                                 with
                                 professionalism and efficiency.
                             </p>
@@ -396,9 +427,11 @@
                             <h4 class="cars_title">
                                 Cost-effective production
                             </h4>
-                            <p>India is known for its cost-effective production, which means that products manufactured in
+                            <p>India is known for its cost-effective production, which means that products manufactured
+                                in
                                 India
-                                can be exported at a relatively lower cost. This makes Indian products competitive in the
+                                can be exported at a relatively lower cost. This makes Indian products competitive in
+                                the
                                 global
                                 market, which is attractive for importers looking for cost-effective products.</p>
                         </div>
@@ -409,7 +442,8 @@
                             <h4 class="cars_title">
                                 Abundant natural resources
                             </h4>
-                            <p>India's diverse natural resource base, including minerals, agricultural products, and other
+                            <p>India's diverse natural resource base, including minerals, agricultural products, and
+                                other
                                 raw
                                 materials, provides manufacturers with easy access to high-quality inputs, resulting in
                                 high-quality finished products.
@@ -435,11 +469,14 @@
                             <h4 class="cars_title">
                                 Favorable government policies
                             </h4>
-                            <p>The Indian government's favorable policies, such as tax incentives, export promotion zones,
+                            <p>The Indian government's favorable policies, such as tax incentives, export promotion
+                                zones,
                                 and
-                                free trade agreements, have created a business-friendly environment that encourages foreign
+                                free trade agreements, have created a business-friendly environment that encourages
+                                foreign
                                 investment and boosts exports. This means that importers can enjoy quality products at a
-                                competitive price, while also benefiting from the country's technical expertise and skilled
+                                competitive price, while also benefiting from the country's technical expertise and
+                                skilled
                                 workforce.
                             </p>
                         </div>
@@ -450,7 +487,8 @@
                             <h4 class="cars_title">
                                 Diverse Indian Products for Endless Possibilities
                             </h4>
-                            <p>India's diverse range of products and industries offers endless possibilities for importers
+                            <p>India's diverse range of products and industries offers endless possibilities for
+                                importers
                                 seeking
                                 quality goods.</p>
                         </div>
