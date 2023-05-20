@@ -13,20 +13,20 @@
                 <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
                     <p>
-                        <a href="#" class="text-white">Rice</a>
+                        <a href="{{ route('product', 'Rice') }}" class="text-white">Rice</a>
                     </p>
                     <p>
-                        <a href="#" class="text-white">Vermicompost </a>
+                        <a href="{{ route('product', 'vermicompost') }}" class="text-white">Vermicompost </a>
                     </p>
                 </div>
                 <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3">
                     <h6 class="text-uppercase mb-4 font-weight-bold">Menu</h6>
                     <p>
-                        <a href="#" class="text-white">Terms & Conditions
+                        <a href="{{ route('page-name', 'terms-conditions') }}" class="text-white">Terms & Conditions
                         </a>
                     </p>
                     <p>
-                        <a href="#" class="text-white"> Privacy Policy </a>
+                        <a href="{{ route('page-name', 'privacy-policy') }}" class="text-white"> Privacy Policy </a>
                     </p>
                 </div>
                 <hr class="w-100 clearfix d-md-none" />

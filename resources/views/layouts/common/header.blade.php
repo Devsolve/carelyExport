@@ -112,10 +112,8 @@
                       </li>
 
 
-                      {{-- <li><a href="{{ route('page-name', 'blog') }}">Blog</a></li> --}}
                       <li class="nav-item"><a class="nav-link" href="{{ route('page-name', 'blog') }}">Blog</a></li>
 
-                      {{-- <li><a href="{{ route('page-name', 'contact-us') }}">Contact Us</a></li> --}}
                       <li class="nav-item"><a class="nav-link" href="{{ route('page-name', 'contact-us') }}">Contact</a>
                       </li>
                   </ul>

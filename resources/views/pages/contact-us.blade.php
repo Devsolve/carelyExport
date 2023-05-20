@@ -1,95 +1,223 @@
 @extends('layouts.master')
 @section('content')
     @push('header_css')
-
     @endpush
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
+    <!-- Page-wrapper-Start -->
+    <div class="page_wrapper">
 
-            <div class="section-header">
-                <h2>Contact</h2>
-                <p>Thank you for your interest in our company and products. We are a merchant exporter specializing in
-                    [product category] and are committed to providing our customers with high-quality products and
-                    exceptional service. If you have any questions or would like to place an order, please don’t hesitate to
-                    get in touch with us using the contact form below or by calling or emailing us directly. We look forward
-                    to hearing from you!</p>
+
+
+        <!-- Top Banner Start-->
+        <div class="inner_page_block">
+
+            <div class="banner_shapes">
+                <div class="container">
+                    <span><img src="assets/img/plus.svg" alt="image"></span>
+                    <span><img src="assets/img/polygon.svg" alt="image"></span>
+                    <span><img src="assets/img/round.svg" alt="image"></span>
+                </div>
             </div>
 
-            <div class="row gx-lg-0 gy-4">
 
-                <div class="col-lg-4">
 
-                    <div class="info-container d-flex flex-column align-items-center justify-content-center">
-                        <div class="info-item d-flex">
-                            <i class="bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h4>Location:</h4>
-                                <p>Dakshin Barasat, West Bengal, India, 743372</p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-envelope flex-shrink-0"></i>
-                            <div>
-                                <h4>Email:</h4>
-                                <p><a href="mailto:info@carelyexport.com">info@carelyexport.com</a></p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-phone flex-shrink-0"></i>
-                            <div>
-                                <h4>Call:</h4>
-                                <p><a href="tel:+917001821069">+91 7001821069</a></p>
-                            </div>
-                        </div><!-- End Info Item -->
-
-                        <div class="info-item d-flex">
-                            <i class="bi bi-clock flex-shrink-0"></i>
-                            <div>
-                                <h4>Open Hours:</h4>
-                                <p>Mon-Sat: 11AM - 23PM</p>
-                            </div>
-                        </div><!-- End Info Item -->
+            <!-- Bread Crumb -->
+            <div class="bread_crumb" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="100">
+                <div class="container">
+                    <div class="bred_text">
+                        <h1>Contact Us</h1>
                     </div>
-
                 </div>
-
-                <div class="col-lg-8">
-                    <form action="{{ route('contact-us.store') }}" method="post" role="form" class="php-email-form" id="contactForm">
-                        @csrf
-                        <div class="form-group mt-3">
-                            <input type="text" name="name" class="form-control" id="name"
-                                placeholder="Your Name">
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="mobile" id="mobile"
-                                   placeholder="Your Mobile">
-                        </div>
-
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="7" placeholder="Message"></textarea>
-                        </div>
-                        <input type="text" id="countryCode">
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
-                </div><!-- End Contact Form -->
-
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
-@endsection
+        <!-- Top Banner End-->
+
+
+        <section id="contact_us_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h5>Feel free to reach out to us with any inquiries, questions, or collaboration opportunities. Our
+                            dedicated team is ready to assist you with your import needs. Whether you need assistance with
+                            product information, pricing, logistics, or any other aspect of the import process, we
+                            are here to help.</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact list Start -->
+        <section class="row_am contact_list_section">
+            <div class="container">
+
+                <div class="contact_list_inner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
+                    <!-- card -->
+                    <a class="hover_action" href="mailto:info@carelyexport.com">
+                        <div class="c_list_card">
+                            <div class="icons">
+                                <img src="assets/img/mail.png" alt="image">
+                                <div class="dot_block">
+                                    <span class="dot_anim"></span>
+                                    <span class="dot_anim"></span>
+                                    <span class="dot_anim"></span>
+                                </div>
+                            </div>
+                            <div class="inner_text">
+                                <h3>Email Us</h3>
+                                <p>Let’s discuss with our sales team
+                                </p>
+                                <a class="hover_action" href="mailto:info@carelyexport.com">info@carelyexport.com</a>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- card -->
+                    <div class="c_list_card">
+                        <div class="icons">
+                            <img src="assets/img/location.png" alt="image">
+                            <div class="dot_block">
+                                <span class="dot_anim"></span>
+                                <span class="dot_anim"></span>
+                                <span class="dot_anim"></span>
+                            </div>
+                        </div>
+                        <div class="inner_text">
+                            <h3>Visit our office</h3>
+                            <p>Reach us to our offcie and meest us
+                            </p>
+                            <a href="#" class="text_btn">Dakshin Barasat, West Bengal, India, 743372
+                            </a>
+                        </div>
+                    </div>
+                    <!-- card -->
+                    <a href="tel:+91 7001821069">
+                        <div class="c_list_card">
+                            <div class="icons">
+                                <img src="assets/img/phone.png" alt="image">
+                                <div class="dot_block">
+                                    <span class="dot_anim"></span>
+                                    <span class="dot_anim"></span>
+                                    <span class="dot_anim"></span>
+                                </div>
+                            </div>
+                            <div class="inner_text">
+                                <h3>Call us</h3>
+                                <p>Call us directly with sales team
+                                </p>
+                                <a href="tel:+91 7001821069" class="text_btn hover_action">+91 7001821069</a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- contact list End -->
+
+        <!-- Contact Us form Start -->
+        <section class="contact_form_section mb-5">
+            <div class="container">
+                <div class="contact_inner">
+                    <div class="contact_form">
+                        <div class="row">
+                            <div class="section_title">
+                                <h1>Leave a <span>message</span></h1>
+                                <p>Fill up form below, our team will get back soon</p>
+                            </div>
+                        </div>
+                        <form action="submit">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="email" placeholder="Your Email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Company Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" id="mobile_code" placeholder="Phone" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Subject" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" placeholder="Message"></textarea>
+                            </div>
+                            <div class="submit_button text-center">
+                                <button type="submit" class="btn">Send Message</button>
+                            </div>
+
+                            <h5 class="mt-5 text-center"> Our team looks forward to providing you with excellent customer
+                                service and ensuring your import
+                                experience is smooth and successful. Don't hesitate to get in touch with us today!</h5>
+                        </form>
+
+                        <!-- <div class="form-graphic">
+                                       <img src="assets/img/paperplane.png" alt="image">
+                                    </div> -->
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- <section id="contact_us">
+                           <div class="container">
+                              <div class="row">
+                                 <div class="col-md-12 text-center">
+                                    <h5> Our team looks forward to providing you with excellent customer service and ensuring your import
+                                       experience is smooth and successful. Don't hesitate to get in touch with us today!</h5>
+                                 </div>
+                              </div>
+                           </div>
+                        </section> -->
+
+
+        <!-- Contact Us form End -->
+
+
+
+        </body>
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+            integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+        <script src="custom.js"></script>
+        <script>
+            // -----Country Code Selection
+            $("#mobile_code").intlTelInput({
+                initialCountry: "in",
+                separateDialCode: true,
+            });
+        </script>
+        </body>
+    @endsection
