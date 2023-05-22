@@ -6,7 +6,8 @@
         <section class="">
             <div class="row">
                 <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3 ">
-                    <img class="text-md-center" src="assets/img/Footerlogo.png" alt="">
+                    <a class="navbar-brand" href="{{ route('home') }}"> <img class="text-md-center"
+                            src="assets/img/Footerlogo.png" alt=""></a>
                     <p><strong>Export Your Need</strong></p>
                 </div>
                 <hr class="w-100 clearfix d-md-none" />

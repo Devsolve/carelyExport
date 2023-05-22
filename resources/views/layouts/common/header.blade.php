@@ -20,7 +20,7 @@
 
 
 
-  {{-- 
+  {{--
   {{-- <header id="header" class="header d-flex align-items-center">
 
       <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -79,22 +79,22 @@
                       </li>
 
 
-                      {{-- <li class="dropdown"><a href="{{ route('product', 'vermicompost') }}"><span>Product</span>
+                      {{--<li class="dropdown"><a href="{{ route('product', 'vermicompost') }}"><span>Product</span>
                               <i class="bi bi-chevron-down dropdown-indicator"></i></a>
                           <ul>
                               <li><a href="{{ route('product', 'vermicompost') }}">Vermicompost</a></li>
                           </ul>
-                      </li> --}}
+                      </li>--}}
 
-                      <li class="nav-item dropdown">
+                      {{--<li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                               data-bs-toggle="dropdown" aria-expanded="false">
                               Product
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li class="multiple_memu"><a class="dropdown-item" href="#">Action</a>
+                              <li class="multiple_memu"><a class="dropdown-item" href="{{ route('product') }}">Products</a>
                                   <ul class="submenu_hover">
-                                      <li><a href="#">Rice 1</a></li>
+                                      <li><a href="{{ route('product', 'vermicompost') }}">Vermicompost</a></li>
                                       <li><a href="#">Rice 1</a></li>
                                       <li><a href="#">Rice 1</a></li>
                                       <li><a href="#">Rice 1</a></li>
@@ -109,8 +109,22 @@
                                   </ul>
                               </li>
                           </ul>
-                      </li>
+                      </li>--}}
 
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                             data-bs-toggle="dropdown" aria-expanded="false">
+                              Product
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li class="multiple_memu"><a class="dropdown-item" href="{{ route('product') }}">Products</a>
+                                  <ul class="submenu_hover">
+                                      <li><a href="{{ route('product') }}">All Products</a></li>
+                                      <li><a href="{{ route('product', 'vermicompost') }}">Vermicompost</a></li>
+                                  </ul>
+                              </li>
+                          </ul>
+                      </li>
 
                       <li class="nav-item"><a class="nav-link" href="{{ route('page-name', 'blog') }}">Blog</a></li>
 

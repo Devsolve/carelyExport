@@ -24,10 +24,16 @@ class PageController extends Controller
     /*
      *
      */
-    public function product(string $page_name)
+    public function product(string $page_name = '')
     {
         try {
-            return view('pages/products/' . $page_name);
+            if($page_name){
+                return view('pages/products/' . $page_name);
+            }else{
+                return view('pages/products/all_products');
+            }
+
+
         } catch (Exception $e) {
             abort(404, $e->getMessage());
         }

@@ -20,7 +20,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/{page_name}', [PageController::class, 'index'])->name('page-name');
-Route::get('/product/{product_name}', [PageController::class, 'product'])->name('product');
+Route::get('/product/{product_name?}', [PageController::class, 'product'])->name('product');
 
 Route::post('/contact-us/store', [ContactController::class, 'store'])->name('contact-us.store');
 
