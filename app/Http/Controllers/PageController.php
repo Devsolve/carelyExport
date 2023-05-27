@@ -27,10 +27,10 @@ class PageController extends Controller
     public function product(string $page_name = '')
     {
         try {
-            if($page_name){
+            if ($page_name) {
                 return view('pages/products/' . $page_name);
-            }else{
-                return view('pages/products/all_products');
+            } else {
+                abort(404, 'Page not exist');
             }
 
 

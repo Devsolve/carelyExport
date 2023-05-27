@@ -8,6 +8,7 @@
     <title>{{ $page_title ?? config('app.name') }}</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     @include('layouts.common.includes.css_links')
     @stack('header_css')
 </head>

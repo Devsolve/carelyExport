@@ -32,15 +32,17 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
 @include('layouts.assets.css.style')
 @php
-$currentPage = is_array(request()->route()->parameters()) && count(request()->route()->parameters()) ? request()->route()->parameters()['page_name'] : '';
+$parameters = request()->route()->parameters();
+$currentPage = is_array($parameters) && count($parameters) && array_key_exists('page_name', $parameters) ? $parameters['page_name'] : (array_key_exists('product_name', $parameters) ? $parameters['product_name'] : '');
 @endphp
 
-@if ($currentPage === 'product')
+@if ($currentPage === 'vermicompost')
     <link rel="stylesheet" href="{{ asset('assets/css/Singleproducts.css') }}">
 @endif
-@if ($currentPage === 'contact-us')
-    {{-- <link rel="stylesheet" href="{{ asset('assets/css/Contact-us.css') }}"> --}}
+@if (in_array($currentPage, ['contact-us', 'about-us']))
     @include('layouts.assets.css.contact_us')
 @endif
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.min.css" integrity="sha512-wJgJNTBBkLit7ymC6vvzM1EcSWeM9mmOu+1USHaRBbHkm6W9EgM0HY27+UtUaprntaYQJF75rc8gjxllKs5OIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="{{ asset('assets/css/loading.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/custom.css') }}">
