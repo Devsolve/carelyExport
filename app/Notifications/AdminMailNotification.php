@@ -35,7 +35,7 @@ class AdminMailNotification extends Notification
      */
     public function toMail(object $notifiable): MailMessage
     {
-        return (new MailMessage)->markdown('mail.admin');
+        return (new MailMessage)->markdown('mail.admin', ['contact' => $this->contact])->subject('New enquiry from '. config('app.name'));
     }
 
     /**

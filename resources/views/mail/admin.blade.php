@@ -1,40 +1,38 @@
 @component('mail::message')
-    Hello Admin,
-    You got a new mail. Please check the following details.
-
+    Dear Admin,<br>
+    You have received a new contact form submission. Here are the details:<br>
     <table>
         <tbody>
         <tr>
-            <td>Name</td>
+            <td><strong>Name:</strong></td>
             <td>{{ $contact->name }}</td>
         </tr>
         <tr>
-            <td>Email Address</td>
+            <td><strong>Email Address:</strong></td>
             <td>{{ $contact->email }}</td>
         </tr>
         <tr>
-            <td>Company Name</td>
+            <td><strong>Company Name:</strong></td>
             <td>{{ $contact->company_name }}</td>
         </tr>
         <tr>
-            <td>Contact Number</td>
+            <td><strong>Contact Number:</strong></td>
             <td>{{ $contact->contact_number }}</td>
         </tr>
         <tr>
-            <td>Country</td>
+            <td><strong>Country:</strong></td>
             <td>{{ $contact->country_name  }}</td>
         </tr>
         <tr>
-            <td>Subject</td>
+            <td><strong>Subject:</strong></td>
             <td>{{ $contact->subject ?? '' }}</td>
         </tr>
         <tr>
-            <td>Message</td>
+            <td><strong>Message:</strong></td>
             <td>{{ $contact->message ?? '' }}</td>
         </tr>
         </tbody>
     </table>
-
     Thanks,<br>
     {{ config('app.name') }}
 @endcomponent

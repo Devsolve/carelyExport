@@ -4,10 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Notifications\Notifiable;
 
 class Contact extends Model
 {
-    use HasFactory;
+    use HasFactory, Notifiable;
 
     protected $fillable = [
         'name',
@@ -19,4 +20,13 @@ class Contact extends Model
         'message',
         'attachments',
     ];
+
+    protected $appends = ['first_name'];
+
+    public function getFirstNameAttribute(){
+        if(!empty($this->name)){
+            return is_array(explode(' ', $this->name)) ? explode(' ', $this->name)[0] : $this->name;
+        }
+        return '';
+    }
 }

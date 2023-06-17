@@ -39,6 +39,11 @@ function loaderHide(selector){
     }
 }
 
+function errorTextRemove(){
+    $('.error').empty();
+    $('.error-element').remove();
+}
+
 $(document).ready(function () {
     if($("#contactForm").length) {
         $("#contactForm").validate({
@@ -114,11 +119,8 @@ $(document).ready(function () {
 
     $(document).on("submit", '#contactForm', function (e) {
         e.preventDefault();
-        $('.error').empty();
+        errorTextRemove();
         let contactFormSelector = $('#contactForm');
-        let loadMessageRemove = $('.loadMessage');
-
-        loadMessageRemove.remove();
         loaderHide($('body'));
 
         $.ajax({
@@ -139,18 +141,20 @@ $(document).ready(function () {
                     contactFormSelector[0].reset();
                     loaderHide($('body'));
                 } else {
-                    $.each(response.message, function (key, value) {
-                        fieldErrorMessage(key, value[0]);
-                    });
-                    console.log(response.message);
+                    if(typeof response.message === "object" && response.message !== null){
+                        $.each(response.message, function (key, value) {
+                            fieldErrorMessage(key, value[0]);
+                        });
+                    }else{
+                        $('#server_error').html('<div class="alert alert-danger alert-block error-element">'+ response.message +'</div>');
+                    }
                     loaderHide($('body'));
                     return false;
                 }
             },
             error: function (response) {
-                loadMessageRemove.remove();
+                console.log(response);
                 loaderHide($('body'));
-                failToastMessage(response.message);
             },
         });
     });

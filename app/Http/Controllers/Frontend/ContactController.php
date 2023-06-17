@@ -50,7 +50,7 @@ class ContactController extends Controller
 
             $contact = Contact::create($data);
 
-            Notification::route('mail', $contact->email)->notify(new ClientMailNotification());
+            Notification::send($contact, new ClientMailNotification());
             Notification::route('mail', config('mail.admin_mail_address'))->notify(new AdminMailNotification($contact));
 
 

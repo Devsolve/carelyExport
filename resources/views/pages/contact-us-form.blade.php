@@ -1,14 +1,4 @@
-@if ($message = \Illuminate\Support\Facades\Session::get('success'))
-    <div class="alert alert-success alert-block">
-        <strong>{{ $message }}</strong>
-    </div>
-@endif
-@if ($message = \Illuminate\Support\Facades\Session::get('error'))
-    <div class="alert alert-danger alert-block">
-        <strong>{{ $message }}</strong>
-    </div>
-@endif
-<div id="example-table"></div>
+<div id="server_error"></div>
 <form action="{{ route('contact-us.store') }}" method="post" id="contactForm">
     @csrf
     <div class="row">
