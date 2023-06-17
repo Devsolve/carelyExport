@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\Contact;
+use App\Notifications\AdminMailNotification;
+use App\Notifications\ClientMailNotification;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
@@ -21,9 +24,14 @@ class ContactController extends Controller
             'name' => ['required', 'string', 'regex:/^[a-zA-Z]+(?:\s*[a-zA-Z]+)+$/'],
             'email' => ['required', 'email:rfc,dns', 'string'],
             'company_name' => ['required', 'string', 'regex:/^[a-zA-Z\s]+$/'],
-            'contact_number' => ['required', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'max:15'],
+            'contact_number' => ['required', 'regex:/^([0-9\s\-\+\(\)]*)$/', 'min:8', 'max:15'],
+            'country_code' => ['required'],
+            'country_name' => ['required'],
             'subject' => ['required', 'string'],
             'message' => ['nullable', 'string']
+        ], [
+            'contact_number.min' => 'The :attribute field must be at least :min digit.',
+            'contact_number.max' => 'The :attribute field must be at least :max digit.',
         ]);
 
         if ($validator->fails()) {
@@ -36,7 +44,15 @@ class ContactController extends Controller
 
         try {
 
-            Contact::create($validator->attributes());
+            $data = $validator->attributes();
+
+            $data['contact_number'] = '+' . $data['country_code'] . $data['contact_number'];
+
+            $contact = Contact::create($data);
+
+            Notification::route('mail', $contact->email)->notify(new ClientMailNotification());
+            Notification::route('mail', config('mail.admin_mail_address'))->notify(new AdminMailNotification($contact));
+
 
             return response()->json([
                 'status' => 'success',

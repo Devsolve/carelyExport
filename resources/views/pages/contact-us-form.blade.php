@@ -15,35 +15,27 @@
         <div class="col-md-6">
             <div class="form-group">
                 <input type="text" name="name" placeholder="Your Name" class="form-control" id="name">
-                @error('name')
-                <label id="name-error" class="error name-danger" for="email">{{ $message }}</label>
-                @enderror
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
                 <input type="email" name="email" placeholder="Your Email" class="form-control" id="email">
-                @error('email')
-                <label id="email-error" class="error text-danger" for="email">{{ $message }}</label>
-                @enderror
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" name="company_name" id="companyName" placeholder="Company Name" class="form-control">
-                @error('company_name')
-                <label id="companyName-error" class="error text-danger" for="companyName">{{ $message }}</label>
-                @enderror
+                <input type="text" name="company_name" id="company_name" placeholder="Company Name" class="form-control">
             </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <input type="text" placeholder="Contact Number" class="form-control" name="contact_number" id="mobile">
-                @error('mobile')
-                <label id="mobile-error" class="error text-danger" for="companyName">{{ $message }}</label>
-                @enderror
+                <input type="text" placeholder="Contact Number" class="form-control" name="contact_number" id="contact_number">
+                <input type="hidden" name="country_code" value="" id="country_code">
+                <input type="hidden" name="country_name" value="" id="country_name">
+                <span id="country_code-error" class="error text-danger"></span>
+                <span id="country_name-error" class="error text-danger"></span>
             </div>
         </div>
     </div>
@@ -51,17 +43,11 @@
         <div class="col-md-12">
             <div class="form-group">
                 <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control">
-                @error('subject')
-                <label id="subject-error" class="error text-danger" for="subject">{{ $message }}</label>
-                @enderror
             </div>
         </div>
     </div>
     <div class="form-group">
         <textarea class="form-control" name="message" placeholder="Message" id="message"></textarea>
-        @error('message')
-        <label id="message-error" class="error text-danger" for="message">{{ $message }}</label>
-        @enderror
     </div>
     <div class="submit_button text-center">
         <button type="submit" class="btn">Send Message</button>

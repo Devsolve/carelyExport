@@ -19,6 +19,12 @@ function failToastMessage(message) {
     })
 }
 
+function fieldErrorMessage(selector, message) {
+    $('#'+selector).after('<label id="'+ selector +'-error" class="error text-danger" for="'+ selector +'">' + message + '</label>');
+    if($('#'+ selector +'-error').length){
+        $('#'+ selector +'-error').html(message);
+    }
+}
 function loaderShow(selector, message){
     selector.loading({
         stoppable: false,
@@ -34,24 +40,6 @@ function loaderHide(selector){
 }
 
 $(document).ready(function () {
-    // if ($('#mobile').length) {
-    //     var input = document.querySelector("#mobile");
-    //     var iti = intlTelInput(input);
-    //     window.intlTelInput(input, {
-    //         utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
-    //         separateDialCode: false,
-    //         autoPlaceholder: "off",
-    //         initialCountry: "auto",
-    //         geoIpLookup: callback => {
-    //             fetch("https://ipapi.co/json")
-    //                 .then(res => res.json())
-    //                 .then(data => callback(data.country_code))
-    //                 .catch(() => callback("ind"));
-    //         },
-    //     });
-    //     var number = iti.getNumber();
-    //     $('#countryCode').val(number);
-    // }
     if($("#contactForm").length) {
         $("#contactForm").validate({
             rules: {
@@ -97,30 +85,36 @@ $(document).ready(function () {
         });
     }
     // -----Country Code Selection
-    if ($('#mobile').length) {
-        $("#mobile").intlTelInput({
-            initialCountry: "in",
+    if ($('#contact_number').length) {
+
+        var input = document.querySelector("#contact_number");
+        var iti = window.intlTelInput(input,{
+            initialCountry: "auto",
             separateDialCode: true,
+            autoPlaceholder: "off",
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            geoIpLookup: callback => {
+                fetch("https://ipapi.co/json")
+                    .then(res => res.json())
+                    .then(data => callback(data.country_code))
+                    .catch(() => callback("ind"));
+            },
+        });
+
+        input.addEventListener("countrychange", function () {
+            const selectedCountryData = iti.getSelectedCountryData();
+
+            const countryCode = selectedCountryData.dialCode;
+            const countryName = selectedCountryData.name;
+
+            $('#country_code').val(countryCode);
+            $('#country_name').val(countryName);
         });
     }
 
-    // if ($('#mobile').length) {
-    //     $("#mobile").intlTelInput({
-    //         utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
-    //         separateDialCode: false,
-    //         autoPlaceholder: "off",
-    //         initialCountry: "auto",
-    //         geoIpLookup: callback => {
-    //             fetch("https://ipapi.co/json")
-    //                 .then(res => res.json())
-    //                 .then(data => callback(data.country_code))
-    //                 .catch(() => callback("ind"));
-    //         },
-    //     });
-    // }
-
     $(document).on("submit", '#contactForm', function (e) {
         e.preventDefault();
+        $('.error').empty();
         let contactFormSelector = $('#contactForm');
         let loadMessageRemove = $('.loadMessage');
 
@@ -143,15 +137,15 @@ $(document).ready(function () {
                 if (response.status === 'success') {
                     successToastMessage(response.message);
                     contactFormSelector[0].reset();
+                    loaderHide($('body'));
                 } else {
-                    var output = '';
-                    $.each(response.data, function (key, value) {
-                        var html = '<div class="alert alert-danger alert-block loadMessage"><button type="button" class="close" data-dismiss="alert">×</button><strong>' + value + '</strong></div>';
-                        output += html;
+                    $.each(response.message, function (key, value) {
+                        fieldErrorMessage(key, value[0]);
                     });
-                    contactFormSelector.before(output);
+                    console.log(response.message);
+                    loaderHide($('body'));
+                    return false;
                 }
-                loaderHide($('body'));
             },
             error: function (response) {
                 loadMessageRemove.remove();

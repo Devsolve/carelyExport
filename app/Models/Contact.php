@@ -14,6 +14,7 @@ class Contact extends Model
         'email',
         'company_name',
         'contact_number',
+        'country_name',
         'subject',
         'message',
         'attachments',
