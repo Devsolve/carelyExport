@@ -30,7 +30,8 @@
     /* header Css  */
 
     header#siteheader .bg-light {
-        background-color: transparent !important;
+        background-color: #ffffff !important;
+        border-bottom: salmon;
     }
 
     header#siteheader {
@@ -107,7 +108,8 @@
     /* Home Page Hero*/
     section#Hero_banner {
         height: 700px;
-        background: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");
+        background:#F5F5F5;
+        /* background: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}"); */
         background-position: center;
         background-size: cover;
     }
@@ -128,7 +130,7 @@
         font-weight: 900;
         margin-bottom: 30px;
         font-family: 'Lato', sans-serif;
-        margin-top: 80px;
+        margin-top: 100px;
     }
 
     .hero_content p {
@@ -191,7 +193,7 @@
         background: url("{{ asset('assets/img/shape-02-2.png') }}");
         width: 200px;
         height: 100%;
-        left: 24%;
+        left: 22%;
         top: -44%;
         background-repeat: no-repeat;
     }
@@ -237,7 +239,8 @@
     section#Provide_trustseal
     *************************/
     section#Provide_trustseal {
-        background: url("{{ asset('assets/img/home-three-testimonial-2.jpg') }}");
+        background:#F5F5F5;
+    /* background: url(img/home-three-testimonial-2.jpg); */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -260,7 +263,8 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        /* border: 40px solid rgb(227 35 35 / 11%); */
+        border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
         top: -149px;
@@ -382,7 +386,8 @@
     *****************/
 
     section#Why_importers_should {
-        background: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");
+        background:#F5F5F5;
+    /* background: url(img/home-three-testimonial-2.jpg); */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -532,7 +537,8 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        border: 40px solid rgb(0 0 0 / 11%);
+        /* border: 40px solid rgb(227 35 35 / 11%); */
         border-radius: 50%;
         right: -129px;
         top: -149px;
@@ -547,7 +553,7 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
         top: -149px;
@@ -604,7 +610,8 @@
     }
 
     section#About_misson {
-        background: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");
+        {{--background: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");--}}
+        background-color:#F5F5F5;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1004,7 +1011,7 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
         top: 185px;
@@ -1087,12 +1094,12 @@
         header#siteheader .navbar-collapse {
             display: block;
             width: 350px;
-            background-color: #ffead9;
+            background-color: #ffffff;
             position: fixed;
             left: -350px;
             top: 88px;
             bottom: 0;
-            transition: ease-in-out 0.8s;
+            transition: ease-in-out 0.5s;
             height: 100%;
             z-index: 10;
         }
@@ -1124,6 +1131,7 @@
 
         footer#sitefooter {
             text-align: center;
+            position: relative;
         }
 
         footer#sitefooter .row {
@@ -1528,5 +1536,123 @@
             background: #ffead9;
             margin-left: -11px;
         }
+    }
+
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card_importers {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-circle {
+        content: "";
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        border: 40px solid rgba(0, 0, 0, 0.11);
+        border-radius: 50%;
+        left: -129px;
+        top: 85%;
+    }
+    @media (max-width: 768px) {
+        .top-circle {
+            height: 150px;
+            width: 150px;
+            border-width: 20px;
+            left: -64px;
+            top: 100%;
+            transform: translateY(-50%);
+        }
+    }
+    /* Default font size */
+    .carousel-caption h2,
+    .carousel-caption h4,
+    .carousel-caption p {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    /* Media query for screens with a maximum width of 768px (for mobile devices) */
+    @media (max-width: 768px) {
+        .carousel-caption h2,
+        .carousel-caption h4,
+        .carousel-caption p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+        @media (min-width: 200px) {
+            .carousel-caption h2,
+            .carousel-caption h4,
+            .carousel-caption p {
+                font-size: 15px;
+                line-height: 23px;
+            }
+        }
+    }
+
+    #Welcome_about {
+        background-color: #f8f8f8;
+        padding: 40px 0;
+    }
+
+    #Welcome_about h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    #Welcome_about span {
+        color: #ff7f50;
+    }
+
+    #Welcome_about p {
+        font-size: 18px;
+        color: #777;
+        margin-top: 20px;
+        text-align: center;
+    }
+/*about us style*/
+    #Welcome_about {
+        background-color: #f8f8f8;
+        padding: 40px 0;
+    }
+
+    #Welcome_about h2 {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    #Welcome_about span {
+        color: #ff7f50;
+    }
+
+    #Welcome_about p {
+        font-size: 18px;
+        color: #777;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .iti--allow-dropdown{
+        height: 60px;
+    }
+/*    footer color*/
+    .white-links a {
+        color: white;
+        margin-left: 10px;
+    }
+    .footer-heading{
+        margin-left: 5px;
+        padding:10px;
+    }
+    .footer-links{
+        list-style: none;
+        padding: 0px;
     }
 </style>

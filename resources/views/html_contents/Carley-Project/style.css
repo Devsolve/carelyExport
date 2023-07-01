@@ -128,7 +128,7 @@ section#Hero_banner .row {
   font-weight: 900;
   margin-bottom: 30px;
   font-family: 'Lato', sans-serif;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .hero_content p {
@@ -237,7 +237,8 @@ section#why_choose_us {
 section#Provide_trustseal
 *************************/
 section#Provide_trustseal {
-  background: url(img/home-three-testimonial-2.jpg);
+  background:#F5F5F5;
+  /* background: url(img/home-three-testimonial-2.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,7 +268,7 @@ section#Provide_trustseal:before {
 }
 
 /* *********
-section#Popular_Products 
+section#Popular_Products
 ************/
 
 section#Popular_Products {
@@ -280,7 +281,7 @@ section#Provide_trustseal .owl-carousel.owl-theme {
 
 
 /* **********
-Products slider  
+Products slider
 ***************/
 .work-wrap .img {
   height: 700px;
@@ -379,7 +380,7 @@ section#why_choose_us .card_importers:hover p {
 }
 
 /* ************
-section#Why_importers_should 
+section#Why_importers_should
 *****************/
 
 section#Why_importers_should {
@@ -551,7 +552,7 @@ section#Why_importers_should:before {
   top: -149px;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-           Home Page css End 
+           Home Page css End
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
@@ -601,7 +602,8 @@ section#Welcome_about h2:before {
 }
 
 section#About_misson {
-  background: url(img/home-one-testimonial-2.jpg);
+  /*background: url(img/home-one-testimonial-2.jpg);*/
+    background-color: #F5F5F5 !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -981,7 +983,7 @@ section#What_Do:before {
   border: 40px solid rgb(227 35 35 / 11%);
   border-radius: 50%;
   left: -129px;
-  top: 185px;
+  top: 80%;
 }
 section#products_categeory{
   position: relative;
@@ -1039,7 +1041,7 @@ footer#sitefooter img.text-md-center {
     margin: 33px 0 0px 0px;
 
   }
-  
+
   button.navbar-toggler i.fa.fa-bars {
     color: #7151f4;
     font-size: 45px;
@@ -1080,7 +1082,7 @@ footer#sitefooter img.text-md-center {
     font-family: 'Lato', sans-serif;
   }
 
-  
+
 header#siteheader .navbar-collapse ul.navbar-nav li.nav-item a{
 color: #525fe1;
 }

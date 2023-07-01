@@ -54,7 +54,7 @@
 
     @media screen and (min-width: 1200px) {
         .container {
-            max-width: 1200px;
+            /* max-width: 1200px; */
         }
     }
 
@@ -127,7 +127,9 @@
     /* Bredcrumb Css Start */
 
     .inner_page_block {
-        background-image: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");
+        background-color: white !important;
+
+        /* background-image: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}"); */
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 350px;

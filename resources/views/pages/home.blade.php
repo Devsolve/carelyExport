@@ -7,7 +7,7 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-5 col-md-12">
                         <div class="hero_content">
-                            <h1>Isometric webinar landing page</h1>
+                            <h1 >Isometric webinar landing page</h1>
                             <p>Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all
                                 your
                                 agricultural needs. Our Vermicompost is made through a natural process of
@@ -97,152 +97,72 @@
 
 
         {{-- popular products corusel start --}}
-
-
         <section id="Popular_Products">
             <div class="container">
                 <div class="row">
-                    <div class="com-md-12">
+                    <div class="col-md-12">
                         <h2 class="two_Color text-center">Popular <span> Products</span></h2>
-                        <p class="paragraph_value text-center mt-5 mb-5">Introducing Carely Export's premium
-                            Vermicompost,
-                            the
-                            ultimate soil amendment for all your agricultural needs. Our Vermicompost is made through a
-                            natural
-                            process of vermicomposting, which utilizes earthworms to transform organic Animal waste into
-                            a
-                            nutrient-rich fertilizer.Our vermicompost is carefully crafted to ensure maximum nutrient
-                            retention
-                            and plant uptake, providing your crops with the essential elements they need to thrive.</p>
+                        <p class="paragraph_value text-center mt-5 mb-5">Introducing Carely Export's premium Vermicompost, the ultimate soil amendment for all your agricultural needs. Our Vermicompost is made through a natural process of vermicomposting, which utilizes earthworms to transform organic Animal waste into a nutrient-rich fertilizer. Our vermicompost is carefully crafted to ensure maximum nutrient retention and plant uptake, providing your crops with the essential elements they need to thrive.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="owl-carousel owl-loaded owl-drag" id="featured">
-                            <div class="owl-stage-outer">
-                                <div class="owl-stage"
-                                     style="transform: translate3d(-4560px, 0px, 0px); transition: all 5s ease 5s; width: 9120px;">
-                                    <div class="owl-item cloned" style="width: 1110px; margin-right: 30px;">
-                                        <div class="item">
-                                            <div class="work-wrap d-flex">
-                                                <div class="img "
-                                                     style="background-image: url({{ asset('assets/img/istockphoto-153737841-170667a.jpg') }});">
-                                                </div>
-                                                <div class="text text-left  p-4 px-xl-5 d-flex align-items-center">
-                                                    <div class="py-md-5">
-                                                        <h2 class="mb-4">Rice</h2>
-                                                        <div class="row">
-                                                            <div class="col-xl-8">
-                                                                <p>Experience the finest quality rice with Carely
-                                                                    Export.
-                                                                    Our carefully
-                                                                    selected rice varieties are sourced from trusted
-                                                                    suppliers, ensuring
-                                                                    exceptional taste, texture, and aroma. Whether
-                                                                    you're
-                                                                    looking for
-                                                                    Basmati rice, Jasmine rice, or other popular
-                                                                    varieties,
-                                                                    we offer a range
-                                                                    of options to suit your culinary preferences.
-                                                                    Discover
-                                                                    the perfect rice
-                                                                    for your meals and elevate your dining experience
-                                                                    with
-                                                                    Carely Export.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <p>
-                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">
-                                                                Learn
-                                                                More
-                                                            </button>
-                                                        </p>
-                                                    </div>
-                                                </div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+{{--                    <ol class="carousel-indicators">--}}
+{{--                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>--}}
+{{--                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>--}}
+{{--                    </ol>--}}
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-image">
+                                <div>
+                                <img src="{{ asset('assets/img/istockphoto-153737841-170667a.jpg') }}" height="500" class="d-block w-100" alt="Wild Landscape">
+                                </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-item cloned" style="width: 1110px; margin-right: 30px;">
-                                        <div class="item">
-                                            <div class="work-wrap d-md-flex">
-                                                <div class="img"
-                                                     style="background-image: url(assets/img/Vermicompost_Factory_-_panoramio__3_1100x.jpg);">
-                                                </div>
-                                                <div
-                                                    class="text text-left text-lg-right p-4 px-xl-5 d-flex align-items-center">
-                                                    <div class="py-md-5">
-                                                        <h2 class="mb-4">Vermicompost</h2>
-                                                        <div class="row">
-                                                            <div class="col-xl-8">
-                                                                <p>Experience the finest quality rice with Carely
-                                                                    Export.
-                                                                    Our carefully
-                                                                    selected rice varieties are sourced from trusted
-                                                                    suppliers, ensuring
-                                                                    exceptional taste, texture, and aroma. Whether
-                                                                    you're
-                                                                    looking for
-                                                                    Basmati rice, Jasmine rice, or other popular
-                                                                    varieties,
-                                                                    we offer a range
-                                                                    of options to suit your culinary preferences.
-                                                                    Discover
-                                                                    the perfect rice
-                                                                    for your meals and elevate your dining experience
-                                                                    with
-                                                                    Carely Export.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <p>
-                                                            <button type="button" class="btn btn-dark mb-2 py-3 px-4">
-                                                                Learn
-                                                                More
-                                                            </button>
-                                                        </p>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class=" d-flex align-items-center justify-content-center">
+                                <div>
+                                    <h2 class="mb-2 d-flex align-items-center justify-content-center mt-4">Rice</h2>
+                                    <h6 class="mb-2 custom_style">Experience the finest quality rice with Carely Export. Our carefully selected rice varieties are sourced from trusted suppliers,<br> ensuring exceptional taste, texture, and aroma. Whether you're looking for Basmati rice, Jasmine rice, or other popular varieties,<br> we offer a range of options to suit your culinary preferences. Discover the perfect rice for your meals and elevate your dining<br> experience with Carely Export.</h6>
+                                    <p class="mt-2 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="btn btn-dark mb-2 py-3 px-4">
+                                            Learn More
+                                        </button>
+                                    </p>
                                 </div>
                             </div>
-                            <div class="owl-nav">
-                                <button type="button" role="presentation" class="owl-prev">
-                                    <p><small>Prev</small><span class="ion-ios-arrow-round-back"></span></p>
-                                </button>
-                                <button type="button" role="presentation" class="owl-next">
-                                    <p><small>Next</small><span class="ion-ios-arrow-round-forward"></span></p>
-                                </button>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image">
+                                <div>
+                                <img src="{{ asset('assets/img/Vermicompost_Factory_-_panoramio__3_1100x.jpg') }}" height="500" class="d-block w-100" alt="Camera">
+                                </div>
                             </div>
-
-                            <div class="owl-dots">
-                                <button role="button" class="owl-dot">
-                                    <span></span>
-                                </button>
-                                <button role="button" class="owl-dot">
-                                    <span></span>
-                                </button>
-                                <button role="button" class="owl-dot active">
-                                    <span></span>
-                                </button>
-                                <button role="button" class="owl-dot">
-                                    <span></span>
-                                </button>
+                            <div class="d-flex align-items-center justify-content-center ">
+                                <div>
+                                    <h2 class="mb-2 d-flex align-items-center justify-content-center mt-4">Vermicompost</h2>
+                                    <h6 class="mb-2 custom_style">Experience the finest quality rice with Carely Export. Our carefully selected rice varieties are sourced from trusted suppliers,<br> ensuring exceptional taste, texture, and aroma. Whether you're looking for Basmati rice, Jasmine rice, or other popular varieties,<br> we offer a range of options to suit your culinary preferences. Discover the perfect rice for your meals and elevate your dining<br> experience with Carely Export.</h6>
+                                    <p class="mt-2 d-flex align-items-center justify-content-center">
+                                        <button type="button" class="btn btn-dark mb-2 py-3 px-4 mt-2">
+                                            Learn More
+                                        </button>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon text-white" style="margin-bottom: 20rem;" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon text-white" style="margin-bottom: 20rem;" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
                 </div>
             </div>
         </section>
 
-        {{-- popular products corusel end --}}
 
-
+        {{--        closed updated crousel--}}
 
         {{-- why choose us start --}}
 
@@ -398,8 +318,8 @@
                                 the best value, and start hassle-free importing with Carely Export!"</h5>
 
                             <div class="button_cta_pro d-flex align-items-center justify-content-center">
-                                <a href="{{ route('page-name', 'contact-us') }}">Get Quote Now</a>
-                                <a href="#">View More Products</a>
+                                <button onclick="window.location.href = '{{ route('page-name', 'contact-us') }}'" class="btn btn-primary">Get Quote Now</button>
+                                <button onclick="window.location.href = '{{ route('page-name', 'product/vermicompost') }}'" class="btn btn-primary m-4">View More Products</button>
                             </div>
                         </div>
                     </div>
@@ -427,13 +347,7 @@
                             <h4 class="cars_title">
                                 Cost-effective production
                             </h4>
-                            <p>India is known for its cost-effective production, which means that products manufactured
-                                in
-                                India
-                                can be exported at a relatively lower cost. This makes Indian products competitive in
-                                the
-                                global
-                                market, which is attractive for importers looking for cost-effective products.</p>
+                            <p>India is known for its cost-effective production, which means that products manufactured in India can be exported at a relatively lower cost. This makes Indian products competitive in the global market, which is attractive for importers looking for cost-effective products.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
@@ -442,12 +356,7 @@
                             <h4 class="cars_title">
                                 Abundant natural resources
                             </h4>
-                            <p>India's diverse natural resource base, including minerals, agricultural products, and
-                                other
-                                raw
-                                materials, provides manufacturers with easy access to high-quality inputs, resulting in
-                                high-quality finished products.
-                            </p>
+                            <p>India's diverse natural resource base, including minerals, agricultural products, and other raw materials, provides manufacturers with easy access to high-quality inputs, resulting in high-quality finished products.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
@@ -461,7 +370,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="shaps">
+                    <div class="col-12">
+                        <div class="shaps"></div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
                         <div class="card_importers">
@@ -469,16 +379,7 @@
                             <h4 class="cars_title">
                                 Favorable government policies
                             </h4>
-                            <p>The Indian government's favorable policies, such as tax incentives, export promotion
-                                zones,
-                                and
-                                free trade agreements, have created a business-friendly environment that encourages
-                                foreign
-                                investment and boosts exports. This means that importers can enjoy quality products at a
-                                competitive price, while also benefiting from the country's technical expertise and
-                                skilled
-                                workforce.
-                            </p>
+                            <p>The Indian government's favorable policies, such as tax incentives, export promotion zones, and free trade agreements, have created a business-friendly environment that encourages foreign investment and boosts exports.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
@@ -487,10 +388,7 @@
                             <h4 class="cars_title">
                                 Diverse Indian Products for Endless Possibilities
                             </h4>
-                            <p>India's diverse range of products and industries offers endless possibilities for
-                                importers
-                                seeking
-                                quality goods.</p>
+                            <p>India's diverse range of products and industries offers endless possibilities for importers seeking quality goods.</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 mb-pixle">
@@ -499,14 +397,14 @@
                             <h4 class="cars_title">
                                 Cultural Affinity
                             </h4>
-                            <p>A Boon for Importers Dealing with India:Unlocking trust and facilitating business
-                                relationships,
-                                India's strong cultural ties with the world offer a competitive edge for importers</p>
+                            <p>A Boon for Importers Dealing with India: Unlocking trust and facilitating business relationships, India's strong cultural ties with the world offer a competitive edge for importers</p>
                         </div>
                     </div>
                 </div>
+                <div class="top-circle"></div>
             </div>
         </section>
+
 
         <!-- why should India choose end -->
 
