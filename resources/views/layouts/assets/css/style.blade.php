@@ -193,7 +193,7 @@
         background: url("{{ asset('assets/img/shape-02-2.png') }}");
         width: 200px;
         height: 100%;
-        left: 22%;
+        margin-left: -40px;
         top: -44%;
         background-repeat: no-repeat;
     }
@@ -263,7 +263,7 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        /* border: 40px solid rgb(227 35 35 / 11%); */
+        /* border: 40px solid rgb(0 0 0 / 11%); */
         border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
@@ -463,7 +463,7 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -100px;
         top: -149px;
@@ -538,7 +538,7 @@
         height: 300px;
         width: 300px;
         border: 40px solid rgb(0 0 0 / 11%);
-        /* border: 40px solid rgb(227 35 35 / 11%); */
+        /* border: 40px solid rgb(0 0 0 / 11%); */
         border-radius: 50%;
         right: -129px;
         top: -149px;
@@ -604,7 +604,7 @@
         background: url("{{ asset('assets/img/shape-02-2.png') }}");
         width: 200px;
         height: 100%;
-        left: 27%;
+        margin-left: -44px;
         top: -44%;
         background-repeat: no-repeat;
     }
@@ -639,7 +639,7 @@
         background: url("{{ asset('assets/img/shape-02-2.png') }}");
         width: 200px;
         height: 100%;
-        left: 43%;
+        margin-left: -44px;
         top: -44%;
         background-repeat: no-repeat;
     }
@@ -996,7 +996,7 @@
         position: absolute;
         height: 300px;
         width: 300px;
-        border: 40px solid rgb(227 35 35 / 11%);
+        border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
         top: 224px;
@@ -1033,6 +1033,10 @@
     }
 
     /* footer */
+    #sitefooter{
+        z-index: 1;
+        position: relative;
+    }
     footer#sitefooter p i {
         margin-right: 10px;
     }
@@ -1099,7 +1103,7 @@
             left: -350px;
             top: 88px;
             bottom: 0;
-            transition: ease-in-out 0.5s;
+            transition: ease-in-out 0.3s;
             height: 100%;
             z-index: 10;
         }
@@ -1125,7 +1129,6 @@
         }
 
         ul.dropdown-menu.show {
-            background: #ffead9;
             margin-left: -11px;
         }
 
@@ -1207,7 +1210,7 @@
 
         section#Value_propostion h2:before {
             height: 100px;
-            left: 16%;
+            /* left: 16%; */
             top: -48%;
         }
 
@@ -1342,7 +1345,7 @@
             position: absolute;
             height: 200px;
             width: 200px;
-            border: 35px solid rgb(227 35 35 / 11%);
+            border: 35px solid rgb(0 0 0 / 11%);
             border-radius: 50%;
             left: -100px;
             top: -95px;
@@ -1369,9 +1372,9 @@
             padding: 50px 0;
         }
 
-        section#Welcome_about h2:before {
+        /* section#Welcome_about h2:before {
             left: 0%;
-        }
+        } */
 
         section#About_misson {
             padding: 40px 0;
@@ -1461,7 +1464,7 @@
 
         section#Welcome_about h2:before {
             height: 100px;
-            top: -84%;
+            top: -34%;
             background-repeat: no-repeat;
         }
 
@@ -1492,7 +1495,7 @@
             position: absolute;
             height: 150px;
             width: 150px;
-            border: 40px solid rgb(227 35 35 / 11%);
+            border: 40px solid rgb(0 0 0 / 11%);
             border-radius: 50%;
             left: -69px;
             top: -74px;
@@ -1533,7 +1536,6 @@
         }
 
         ul.dropdown-menu.show {
-            background: #ffead9;
             margin-left: -11px;
         }
     }

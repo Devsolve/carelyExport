@@ -141,9 +141,9 @@
                                     <h2 class="mb-2 d-flex align-items-center justify-content-center mt-4">Vermicompost</h2>
                                     <h6 class="mb-2 custom_style">Experience the finest quality rice with Carely Export. Our carefully selected rice varieties are sourced from trusted suppliers,<br> ensuring exceptional taste, texture, and aroma. Whether you're looking for Basmati rice, Jasmine rice, or other popular varieties,<br> we offer a range of options to suit your culinary preferences. Discover the perfect rice for your meals and elevate your dining<br> experience with Carely Export.</h6>
                                     <p class="mt-2 d-flex align-items-center justify-content-center">
-                                        <button type="button" class="btn btn-dark mb-2 py-3 px-4 mt-2">
+                                        <a href="{{ route('product', 'vermicompost') }}" class="btn btn-dark mb-2 py-3 px-4 mt-2">
                                             Learn More
-                                        </button>
+                                        </a>
                                     </p>
                                 </div>
                             </div>

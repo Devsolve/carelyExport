@@ -193,7 +193,8 @@
     }
 
     .contact_list_section .contact_list_inner .c_list_card {
-        width: 350px;
+        width: 33%;
+        margin:0px 10px;
         background-color: #fff;
         border-radius: 12px;
         padding: 40px;
@@ -452,6 +453,11 @@
 
         input#mobile_code {
             width: 100% !important;
+        }
+        
+        .contact_list_section .contact_list_inner .c_list_card {
+            width: 100%;
+            margin:0px;
         }
     }
 

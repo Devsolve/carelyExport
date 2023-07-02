@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="assets/img/Footerlogo.png" alt="Logo" class="footer-logo">
+                    <img src="{{ asset('assets/img/logo.png') }}" alt="Logo" class="footer-logo w-50">
                 </a>
                 <p class="footer-text">Export Your Need</p>
             </div>

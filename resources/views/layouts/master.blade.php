@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link rel="icon" href="{{ asset('assets/img/Logo.jpg') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/img/favicon.png') }}" type="image/x-icon">
     <title>{{ $page_title ?? config('app.name') }}</title>
     <meta content="" name="description">
     <meta content="" name="keywords">

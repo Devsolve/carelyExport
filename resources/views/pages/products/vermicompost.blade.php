@@ -16,7 +16,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3 class="main_export_heading">Indian Vermicompost Exporters</h3>
-                    <p class="mt-5">Our Vermicompost is a premium organic fertilizer made from nutrient-rich worm
+                    <p class="mt-5 text-start">Our Vermicompost is a premium organic fertilizer made from nutrient-rich worm
                         castings,
                         produced through our sustainable and environmentally-friendly methods. We take pride in
                         delivering a
@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3>What is Vermicompost?</h3>
-                    <p>Vermicompost is a type of organic fertilizer produced through the process of vermicomposting,
+                    <p class="text-start">Vermicompost is a type of organic fertilizer produced through the process of vermicomposting,
                         which
                         involves the use of earthworms to break down organic materials like food waste, paper, and yard
                         trimmings. The resulting material, known as worm castings, is rich in nutrients and beneficial
@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h3>Why choose Carely Export's Vermicompost?</h3>
-                    <p>Our Vermicompost is made using only the highest quality organic materials and earthworms,
+                    <p class="text-start">Our Vermicompost is made using only the highest quality organic materials and earthworms,
                         ensuring
                         that it is rich in essential plant nutrients like nitrogen, phosphorus, and potassium. Our
                         production process is completely sustainable and environmentally-friendly, with zero waste or
