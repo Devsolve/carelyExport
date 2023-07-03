@@ -31,7 +31,7 @@
                     <div class="col-md-12">
                         <div class="Carely_Export">
                             <h2 class="two_Color text-center">Value proposition <span>Carely Export</span></h2>
-                            <p class="paragraph_value text-center mt-5">Welcome to Carely Export, <strong>Reliable
+                            <p class="paragraph_value text-start mt-5">Welcome to Carely Export, <strong>Reliable
                                     Partner
                                     in
                                     Global Trade</strong>. We're dedicated to providing exceptional service and quality

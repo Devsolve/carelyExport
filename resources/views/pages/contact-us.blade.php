@@ -41,8 +41,8 @@
             <div class="container">
                 <div class="contact_list_inner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100">
                     <!-- card -->
-                    <a class="hover_action" href="mailto:info@carelyexport.com">
-                        <div class="c_list_card">
+                    <a class="hover_action " href="mailto:info@carelyexport.com">
+                        <div class="c_list_card mb-3">
                             <div class="icons">
                                 <img src="{{ asset('assets/img/mail.png') }}" alt="image">
                                 <div class="dot_block">
@@ -60,7 +60,7 @@
                         </div>
                     </a>
                     <!-- card -->
-                    <div class="c_list_card">
+                    <div class="c_list_card mb-3">
                         <div class="icons">
                             <img src="{{ asset('assets/img/location.png') }}" alt="image">
                             <div class="dot_block">
@@ -79,7 +79,7 @@
                     </div>
                     <!-- card -->
                     <a href="tel:+91 7001821069">
-                        <div class="c_list_card">
+                        <div class="c_list_card mb-3">
                             <div class="icons">
                                 <img src="{{ asset('assets/img/phone.png') }}" alt="image">
                                 <div class="dot_block">

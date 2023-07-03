@@ -52,7 +52,8 @@
     }
 
     ul.dropdown-menu.show {
-        background: #525fe1;
+        background: white;
+        color: #525fe1;
     }
 
     .dropdown-item:focus,
@@ -603,9 +604,9 @@
         position: absolute;
         background: url("{{ asset('assets/img/shape-02-2.png') }}");
         width: 200px;
-        height: 100%;
+        height: 100px;
         margin-left: -44px;
-        top: -44%;
+        top: -64%;
         background-repeat: no-repeat;
     }
 
@@ -1540,6 +1541,9 @@
         }
     }
 
+    .dropdown-menu{
+        min-width:11rem !important;
+    }
 
     .row {
         display: flex;
