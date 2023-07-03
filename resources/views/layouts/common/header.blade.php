@@ -22,7 +22,7 @@
                            data-bs-toggle="dropdown" aria-expanded="false">
                             Product
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
                             <li class="multiple_memu">
                                 <a class="dropdown-item " href="{{route('product', 'rice')  }}">Rice</a>
                                 {{-- <ul class="submenu_hover">

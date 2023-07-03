@@ -401,7 +401,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="top-circle"></div>
+                {{-- <div class="top-circle"></div> --}}
             </div>
         </section>
 

@@ -993,14 +993,14 @@
     }
 
     section#Uses:before {
-        content: "";
+        /* content: "";
         position: absolute;
         height: 300px;
         width: 300px;
         border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
-        top: 224px;
+        top: 224px; */
     }
 
     section#What_Do {
@@ -1008,14 +1008,14 @@
     }
 
     section#What_Do:before {
-        content: "";
+        /* content: "";
         position: absolute;
         height: 300px;
         width: 300px;
         border: 40px solid rgb(0 0 0 / 11%);
         border-radius: 50%;
         left: -129px;
-        top: 185px;
+        top: 185px; */
     }
 
     section#products_categeory {
