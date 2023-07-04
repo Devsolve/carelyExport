@@ -2735,7 +2735,7 @@ body {
     font-size: 17px;
     line-height: 1.7;
     font-family: "Plus Jakarta Sans", sans-serif;
-    color:#391e6c;
+    color: #391e6c;
     background-color: #f6f4ff;
     word-break: break-word;
     scroll-behavior: smooth;
@@ -2752,12 +2752,12 @@ body.hide_scroll {
 
 a {
     text-decoration: none;
-    color:#391e6c;
+    color: #391e6c;
 }
 
 a:hover {
     text-decoration: none;
-    color:#391e6c;
+    color: #391e6c;
 }
 
 ul,
@@ -2799,20 +2799,19 @@ section.contact_form_section .section_title h1 {
 }
 
 section.contact_form_section .section_title h1 span {
-    color: #391E6C;
+    color: #391e6c;
 }
 
 h3 {
     font-size: 20px;
     font-weight: 700;
-    color: #391E6C;
+    color: #391e6c;
     margin-bottom: 20px;
 }
 
 .row_am {
     padding: 50px 0;
 }
-
 
 /* Banner Section Css Start  */
 
@@ -2850,7 +2849,6 @@ h3 {
     }
 }
 
-
 /* Bredcrumb Css Start */
 
 .inner_page_block {
@@ -2882,7 +2880,6 @@ h3 {
     font-size: 55px;
     font-weight: 700;
 }
-
 
 .bread_crumb .bred_text ul {
     display: flex;
@@ -2925,7 +2922,8 @@ h3 {
     padding: 40px;
     text-align: center;
     transition: 0.4s all;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .contact_list_section .contact_list_inner .c_list_card .inner_text {
@@ -2990,32 +2988,56 @@ h3 {
     transition-delay: 0.5s;
 }
 
-.contact_list_section .contact_list_inner .c_list_card .icons .dot_anim:nth-child(1) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card
+    .icons
+    .dot_anim:nth-child(1) {
     top: 30px;
     left: 40px;
 }
 
-.contact_list_section .contact_list_inner .c_list_card:hover .icons .dot_anim:nth-child(1) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card:hover
+    .icons
+    .dot_anim:nth-child(1) {
     top: 20px;
     left: 20px;
 }
 
-.contact_list_section .contact_list_inner .c_list_card .icons .dot_anim:nth-child(2) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card
+    .icons
+    .dot_anim:nth-child(2) {
     right: 35px;
     top: 40px;
 }
 
-.contact_list_section .contact_list_inner .c_list_card:hover .icons .dot_anim:nth-child(2) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card:hover
+    .icons
+    .dot_anim:nth-child(2) {
     right: 15px;
     top: 30px;
 }
 
-.contact_list_section .contact_list_inner .c_list_card .icons .dot_anim:nth-child(3) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card
+    .icons
+    .dot_anim:nth-child(3) {
     left: 50px;
     bottom: 70px;
 }
 
-.contact_list_section .contact_list_inner .c_list_card:hover .icons .dot_anim:nth-child(3) {
+.contact_list_section
+    .contact_list_inner
+    .c_list_card:hover
+    .icons
+    .dot_anim:nth-child(3) {
     left: 30px;
     bottom: 40px;
 }
@@ -3043,7 +3065,7 @@ section#contact_us {
     padding: 50px 200px;
     border-radius: 22px;
     background-color: #fff;
-    box-shadow: 0 4px 10px #EDE9FE;
+    box-shadow: 0 4px 10px #ede9fe;
 }
 
 .contact_form_section .contact_inner .contact_form h2 {
@@ -3060,11 +3082,16 @@ section#contact_us {
     margin-bottom: 20px;
 }
 
-.contact_form_section .contact_inner .contact_form form .form-group .form-control {
+.contact_form_section
+    .contact_inner
+    .contact_form
+    form
+    .form-group
+    .form-control {
     height: 60px;
     padding: 5px 20px;
-    color:#391e6c;
-    border: 2px solid #E1DBF4;
+    color: #391e6c;
+    border: 2px solid #e1dbf4;
     border-radius: 12px;
     font-weight: 500;
     background: #ffffff;
@@ -3073,13 +3100,23 @@ a.hover_action:hover {
     color: #00f;
     text-decoration: none;
 }
-.contact_form_section .contact_inner .contact_form form .form-group .form-control:focus {
+.contact_form_section
+    .contact_inner
+    .contact_form
+    form
+    .form-group
+    .form-control:focus {
     box-shadow: none;
     border-color: var(--main_purple);
-    color: #391E6C;
+    color: #391e6c;
 }
 
-.contact_form_section .contact_inner .contact_form form .form-group textarea.form-control {
+.contact_form_section
+    .contact_inner
+    .contact_form
+    form
+    .form-group
+    textarea.form-control {
     height: 140px;
     padding-top: 15px;
 }
@@ -3092,7 +3129,7 @@ a.hover_action:hover {
 .contact_form_section .contact_inner .contact_form form .term_check input {
     width: 17px;
     height: 17px;
-    accent-color: #391E6C;
+    accent-color: #391e6c;
 }
 
 .contact_form_section .contact_inner .contact_form form .term_check label {
@@ -3124,7 +3161,7 @@ a.hover_action:hover {
 }
 section#contact_us_content {
     padding-top: 100px;
-    padding-bottom: 40px;;
+    padding-bottom: 40px;
 }
 section#contact_us_content h5 {
     font-size: 24px;
@@ -3145,7 +3182,7 @@ section.contact_form_section.mb-5 h5 {
 input#mobile_code {
     width: 369px;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .contact_list_section .contact_list_inner {
         display: inherit;
     }
@@ -3158,7 +3195,7 @@ input#mobile_code {
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
     .bread_crumb .bred_text h1 {
         font-size: 36px;
     }
@@ -3166,7 +3203,7 @@ input#mobile_code {
         width: 100% !important;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
     section.contact_form_section.mb-5 h5 {
         color: rgb(98, 93, 93);
         font-size: 20px;
@@ -3237,7 +3274,7 @@ img {
     width: 100%;
 }
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -3257,7 +3294,7 @@ header#siteheader {
 header#siteheader ul.navbar-nav li.nav-item a {
     color: #525fe1;
     font-size: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 header#siteheader ul.navbar-nav li.nav-item {
@@ -3306,7 +3343,6 @@ li.multiple_memu2:hover ul.submenu_hover {
     transition: 0.6s;
 }
 
-
 /* On scroll fix header */
 header#siteheader.fixed {
     position: fixed;
@@ -3316,8 +3352,6 @@ header#siteheader.fixed {
     transition: 0.8s ease-in-out;
     background: #ffead9;
 }
-
-
 
 /* Home Page Hero*/
 section#Hero_banner {
@@ -3335,7 +3369,8 @@ section#Hero_banner .row {
 .hero_img img {
     margin-top: 80px;
 }
-ul, li {
+ul,
+li {
     padding: 0;
     list-style-type: none;
     margin: 0;
@@ -3344,10 +3379,10 @@ ul, li {
 .hero_content h1 {
     font-size: 58px;
     line-height: 60px;
-    color: #231F40;
+    color: #231f40;
     font-weight: 900;
     margin-bottom: 30px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     margin-top: 100px;
 }
 
@@ -3356,12 +3391,12 @@ ul, li {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 .hero_content a {
     font-size: 20px;
-    background: #525FE1;
+    background: #525fe1;
     padding: 14px 30px;
     color: #fff;
     font-weight: 500;
@@ -3383,16 +3418,16 @@ h2.two_Color.text-center {
     font-size: 40px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
 }
 
 h2 span {
     line-height: 26px;
-    color: #525FE1;
+    color: #525fe1;
     display: inline-block;
     margin-bottom: 0;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
 }
 
 h2:after {
@@ -3421,7 +3456,7 @@ p.paragraph_value {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#why_choose_us {
@@ -3439,8 +3474,8 @@ section#why_choose_us {
     color: #525fe1;
     display: inline-block;
     margin-bottom: 0;
-    letter-spacing: .1em;
-    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 0.1em;
+    font-family: "Urbanist", sans-serif;
 }
 
 .section-title .title {
@@ -3449,7 +3484,7 @@ section#why_choose_us {
     font-size: 50px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
 }
 
@@ -3457,7 +3492,7 @@ section#why_choose_us {
 section#Provide_trustseal
 *************************/
 section#Provide_trustseal {
-    background:#F5F5F5;
+    background: #f5f5f5;
     /* background: url(img/home-three-testimonial-2.jpg); */
     background-size: cover;
     background-position: center;
@@ -3472,7 +3507,7 @@ h2.two_Color {
     font-size: 40px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
 }
 
@@ -3498,7 +3533,6 @@ section#Popular_Products {
 section#Provide_trustseal .owl-carousel.owl-theme {
     padding: 70px 0px 40px;
 }
-
 
 /* **********
 Products slider
@@ -3544,7 +3578,7 @@ Products slider
 .owl-carousel .owl-nav .owl-next p small {
     display: block;
     color: #000;
-    line-height: .8;
+    line-height: 0.8;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
@@ -3563,8 +3597,6 @@ Products slider
     font-weight: 800;
     text-transform: uppercase;
 }
-
-
 
 section#why_choose_us .row {
     display: flex;
@@ -3604,7 +3636,7 @@ section#Why_importers_should
 *****************/
 
 section#Why_importers_should {
-    background:#F5F5F5;
+    background: #f5f5f5;
     /* background: url(img/home-one-testimonial-2.jpg); */
     background-size: cover;
     background-position: center;
@@ -3627,7 +3659,6 @@ section#Why_importers_should .card_importers {
 
 .card_importers {
     box-shadow: 0px 10px 20px #d9d9d9;
-;
     background: #fff;
     padding: 25px;
     border-radius: 25px;
@@ -3642,7 +3673,7 @@ span.card_number {
     line-height: 55px;
     text-align: center;
     color: #fff;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     font-weight: 900;
     font-size: 30px;
     border-radius: 50%;
@@ -3652,20 +3683,19 @@ span.card_number {
 
 h4.cars_title {
     margin-bottom: 20px;
-    color: #231F40;
+    color: #231f40;
     font-size: 26px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
 }
 
 section#Why_importers_should .card_importers p {
     font-size: 19px;
     font-weight: normal;
     line-height: 1.6em;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
-
 
 /* Cta css start */
 section#call_to_action {
@@ -3675,7 +3705,6 @@ section#call_to_action {
     background-repeat: no-repeat;
     position: relative;
 }
-
 
 section#call_to_action:before {
     content: "";
@@ -3759,7 +3788,7 @@ section#call_to_act:before {
     right: -129px;
     top: -149px;
 }
-section#Why_importers_should{
+section#Why_importers_should {
     position: relative;
 }
 section#Why_importers_should:before {
@@ -3775,7 +3804,6 @@ section#Why_importers_should:before {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
            Home Page css End
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-
 
 /* -------------------------------------
                ABOUT US PAGE
@@ -3808,7 +3836,7 @@ section#Welcome_about p {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#Welcome_about h2:before {
@@ -3841,7 +3869,7 @@ section#About_misson h2 {
     font-size: 40px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
 }
 section#About_misson h2:before {
@@ -3859,7 +3887,7 @@ section#About_misson p {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#About_misson img {
@@ -3872,7 +3900,7 @@ section#About_misson ul.value_li li {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#About_misson ul.value_li li {
@@ -3883,7 +3911,8 @@ section#About_misson ul.value_li li {
     background: #ffffff;
     height: 100%;
     padding: 30px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     border-radius: 30px;
 }
 
@@ -3904,7 +3933,7 @@ section#Who_are p {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#What_Do p {
@@ -3912,7 +3941,7 @@ section#What_Do p {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 .row.values {
@@ -3926,7 +3955,8 @@ section#What_Do p {
     background: transparent;
     height: 100%;
     padding: 30px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     border-radius: 30px;
     border: 3px solid #ffead9;
 }
@@ -3937,7 +3967,6 @@ section#About_misson .vlaue_card p {
     line-height: 1.67;
     color: #3d64b3;
 }
-
 
 /* -------------------------------------
                ABOUT US PAGE
@@ -3991,7 +4020,7 @@ section#products_details h3 {
     font-size: 36px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
     margin-bottom: 10px;
 }
@@ -4000,7 +4029,7 @@ h3.main_export_heading {
     font-size: 48px !important;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
     margin-bottom: 10px;
 }
@@ -4009,7 +4038,7 @@ section#products_details p {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
 }
 
 section#products_categeory {
@@ -4025,13 +4054,14 @@ section#products_categeory a {
     border-radius: 12px;
     text-align: center;
     transition: 0.4s all;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     overflow: hidden;
     cursor: pointer;
 }
 
 .card_products:hover img {
-    transform: scale(1.10);
+    transform: scale(1.1);
     transition: 0.4s ease;
 }
 
@@ -4071,16 +4101,17 @@ h3.products_title_details {
     font-size: 28px;
     font-weight: 900;
     line-height: 1.4;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
     position: relative;
     margin-bottom: 10px;
 }
-section#Description p, section#Uses p {
+section#Description p,
+section#Uses p {
     font-size: 20px;
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
     margin-bottom: 100px;
 }
 section#Ingredients {
@@ -4093,7 +4124,8 @@ section#Uses {
 section#Specification table.table {
     border: 2px solid #525fe1;
 }
-.table td, .table th {
+.table td,
+.table th {
     padding: 0.75rem;
     vertical-align: top;
     border: 2px solid #525fe1 !important;
@@ -4103,7 +4135,7 @@ td {
     font-weight: 400;
     font-family: roboto;
     line-height: 1.67;
-    color: #6F6B80;
+    color: #6f6b80;
     margin-bottom: 100px;
 }
 section#products_detals_Benefits {
@@ -4112,8 +4144,6 @@ section#products_detals_Benefits {
 /* -------------------------------------
               Single Prodcust page css
  --------------------------------------*/
-
-
 
 .timeline-4 .card-body img {
     width: 64px;
@@ -4145,7 +4175,8 @@ section#call_to_act {
 }
 
 section#call_to_act .container {
-    background: linear-gradient(0deg, rgb(55 15 94 / 95%), rgb(18 17 98 / 61%)), url(img/Cta.jpg);
+    background: linear-gradient(0deg, rgb(55 15 94 / 95%), rgb(18 17 98 / 61%)),
+        url(img/Cta.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -4159,14 +4190,14 @@ section#call_to_act p {
     font-weight: 400;
     line-height: 1.67;
     color: #ffffff;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
 }
 
 section#call_to_act h5 {
     font-size: 26px;
     font-weight: 600;
     color: #ffffff;
-    font-family: 'Urbanist', sans-serif;
+    font-family: "Urbanist", sans-serif;
 }
 
 section#call_to_act .button_cta_pro a {
@@ -4179,7 +4210,7 @@ section#call_to_act .button_cta_pro a {
     border-radius: 8px;
 }
 
-section#Uses{
+section#Uses {
     position: relative;
 }
 section#Uses:before {
@@ -4192,7 +4223,7 @@ section#Uses:before {
     left: -129px;
     top: 224px;
 }
-section#What_Do{
+section#What_Do {
     position: relative;
 }
 section#What_Do:before {
@@ -4205,7 +4236,7 @@ section#What_Do:before {
     left: -129px;
     top: 185px;
 }
-section#products_categeory{
+section#products_categeory {
     position: relative;
 }
 section#products_categeory::before {
@@ -4259,7 +4290,6 @@ footer#sitefooter img.text-md-center {
     }
     section#call_to_act .button_cta_pro a {
         margin: 33px 0 0px 0px;
-
     }
 
     button.navbar-toggler i.fa.fa-bars {
@@ -4299,11 +4329,10 @@ footer#sitefooter img.text-md-center {
     header#siteheader ul.navbar-nav li.nav-item a {
         color: #fff;
         font-size: 27px;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
     }
 
-
-    header#siteheader .navbar-collapse ul.navbar-nav li.nav-item a{
+    header#siteheader .navbar-collapse ul.navbar-nav li.nav-item a {
         color: #525fe1;
     }
     ul.dropdown-menu.show {
@@ -4324,10 +4353,9 @@ footer#sitefooter img.text-md-center {
     }
 }
 
-
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-    body{
+    body {
         overflow-x: hidden;
     }
     /* Place the timelime to the left */
@@ -4445,7 +4473,8 @@ footer#sitefooter img.text-md-center {
         margin-top: 30px;
         display: block;
     }
-    .work-wrap .text, .work-wrap .img {
+    .work-wrap .text,
+    .work-wrap .img {
         width: 100% !important;
     }
     .work-wrap .img {
@@ -4461,7 +4490,7 @@ footer#sitefooter img.text-md-center {
         height: 237px;
     }
     section#why_choose_us .main-timeline-4 .card.gradient-custom .p-4 {
-        padding: 0rem!important;
+        padding: 0rem !important;
     }
     .timeline-4 {
         padding-left: 50px;
@@ -4562,7 +4591,8 @@ footer#sitefooter img.text-md-center {
     section#products_detals_Benefits {
         margin-top: 50px;
     }
-    section#Description p, section#Uses p {
+    section#Description p,
+    section#Uses p {
         font-size: 18px;
         margin-bottom: 00px;
     }
@@ -4658,5 +4688,5 @@ footer#sitefooter img.text-md-center {
     h3.main_export_heading {
         font-size: 30px !important;
     }
-/*    line height of slide home*/
+    /*    line height of slide home*/
 }
