@@ -181,7 +181,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="products_title_details">
+                    <h3 class="products_title_details mt-5">
                         USES & BENEFITS
                     </h3>
                     <p>Rye import from India has been increasing over the years due to various health and medicinal

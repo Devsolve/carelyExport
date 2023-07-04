@@ -47,6 +47,8 @@
         </div>
     </nav>
 </header>
+<div class="overlay"></div>
+
 <script>
     function toggleHeader() {
         var header = document.getElementById('siteheader');
@@ -60,6 +62,8 @@
             });
         }
     }
+   
+
 </script>
 
 <style>
@@ -71,4 +75,20 @@
     .navbar{
         border-bottom: 1px solid lightgray !important;
     }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0.5;
+        visibility: hidden;
+        transition: opacity 0.3s;
+        z-index: 9999;
+        }
+        .show-overlay {
+            visibility: initial;
+        } 
 </style>

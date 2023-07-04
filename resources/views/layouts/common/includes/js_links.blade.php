@@ -18,3 +18,31 @@
 <script src="{{ asset('assets/js/loading.js') }}"></script>
 <script src="{{ asset('assets/js/custom.js') }}"></script>
 <script src="{{ asset('assets/js/custom-dev.js') }}"></script>
+<script>
+$(document).ready(function() {
+        // Show/hide the overlay and toggle the navbar on click
+        $('.navbar-toggler').click(function() {
+                const overlay= $('.overlay')[0];
+                if( overlay.classList.contains('show-overlay')){
+                        console.log('if');
+                        $('.overlay').removeClass('show-overlay');
+                        setTimeout(function() {
+                                $('.navbar-collapse').collapse('hide');
+                        }, 1000);
+                        
+
+                }else{
+                        console.log('else');
+                        $('.overlay').addClass('show-overlay');
+                        $('.navbar-collapse').collapse('show');
+                }
+               
+        });
+
+        // Close the navbar and hide the overlay when clicking on the overlay
+        $('.overlay').click(function() {
+            $('.navbar-collapse').collapse('hide');
+            $(this).removeClass('show-overlay');
+        });
+});
+</script>
