@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="form-group">
+            <div class="form-group mb-5" style="height: 60px;">
                 <input type="text" placeholder="Contact Number" class="form-control" name="contact_number" id="contact_number">
                 <input type="hidden" name="country_code" value="" id="country_code">
                 <input type="hidden" name="country_name" value="" id="country_name">

@@ -60,9 +60,9 @@
                 </div>
             </div>
         </section>
-        <section id="About_misson">
-            <div class="container">
-                <div class="row values">
+        <section id="About_misson" >
+            <div class="container" >
+                <div class="row values" >
                     <div class="col-md-12">
                         <div class="value">
                             <h2 class="mb-3 text-center">Value</h2>
@@ -71,26 +71,26 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/trust.png" alt="">
                             <p>Integrity: Your trusted partner, committed to honesty and transparency.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/customer-focus.png" alt="">
                             <p>Customer Focus: Putting you first, delivering exceptional service and lasting
                                 relationships.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/service.png" alt="">
                             <p>Quality Excellence: Uncompromising quality for superior products and peace of mind.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/project-management.png" alt="">
                             <p>Innovation: Driving forward-thinking solutions to meet your evolving needs.</p>
                         </div>
@@ -99,20 +99,20 @@
 
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/sustainability.png" alt="">
                             <p>Sustainability: Embracing eco-friendly practices for a greener future.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/teamwork.png" alt="">
                             <p>Collaboration: Building strong partnerships for seamless supply chains and shared
                                 success.</p>
                         </div>
                     </div>
                     <div class="col-md-6 mb-3">
-                        <div class="vlaue_card">
+                        <div class="vlaue_card bg-white">
                             <img src="assets/img/businessman.png" alt="">
                             <p>Professionalism: A dedicated team delivering excellence with expertise and
                                 professionalism.</p>
@@ -132,7 +132,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="two_Color text-center">Who are we?</h2>
-                        <p class="text-center mt-3">We are a team of experienced professionals with a passion for
+                        <p class="text-start mt-3">We are a team of experienced professionals with a passion for
                             international
                             trade. Our team has extensive experience in exporting, and we are committed to ensuring that
                             our
@@ -146,7 +146,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="two_Color text-center">What We Do?</h2>
-                        <p class="text-center mt-3">We specialize in exporting high-quality products to clients
+                        <p class="text-start mt-3">We specialize in exporting high-quality products to clients
                             worldwide.
                             Our
                             flagship product, Vermicompost, is a premium quality, nutrient-rich, and sustainable. We are

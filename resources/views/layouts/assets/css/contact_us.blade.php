@@ -54,7 +54,7 @@
 
     @media screen and (min-width: 1200px) {
         .container {
-            max-width: 1200px;
+            /* max-width: 1200px; */
         }
     }
 
@@ -127,7 +127,9 @@
     /* Bredcrumb Css Start */
 
     .inner_page_block {
-        background-image: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}");
+        background-color: white !important;
+
+        /* background-image: url("{{ asset('assets/img/home-one-testimonial-2.jpg') }}"); */
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 350px;
@@ -191,7 +193,8 @@
     }
 
     .contact_list_section .contact_list_inner .c_list_card {
-        width: 350px;
+        width: 33%;
+        margin:0px 10px;
         background-color: #fff;
         border-radius: 12px;
         padding: 40px;
@@ -450,6 +453,11 @@
 
         input#mobile_code {
             width: 100% !important;
+        }
+        
+        .contact_list_section .contact_list_inner .c_list_card {
+            width: 100%;
+            margin:0px;
         }
     }
 

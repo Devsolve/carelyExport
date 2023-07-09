@@ -1,45 +1,39 @@
-<!-- ======= Footer ======= -->
-
-
-<footer id="sitefooter" class="text-center text-lg-start text-white" style="background-color: #525fe1">
-    <div class="container p-4 pb-0">
-        <section class="">
-            <div class="row">
-                <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3 ">
-                    <a class="navbar-brand" href="{{ route('home') }}"> <img class="text-md-center"
-                            src="assets/img/Footerlogo.png" alt=""></a>
-                    <p><strong>Export Your Need</strong></p>
-                </div>
-                <hr class="w-100 clearfix d-md-none" />
-                <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-                    <p>
-                        <a href="{{ route('product', 'Rice') }}" class="text-white">Rice</a>
-                    </p>
-                    <p>
-                        <a href="{{ route('product', 'vermicompost') }}" class="text-white">Vermicompost </a>
-                    </p>
-                </div>
-                <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Menu</h6>
-                    <p>
-                        <a href="{{ route('page-name', 'terms-conditions') }}" class="text-white">Terms & Conditions
-                        </a>
-                    </p>
-                    <p>
-                        <a href="{{ route('page-name', 'privacy-policy') }}" class="text-white"> Privacy Policy </a>
-                    </p>
-                </div>
-                <hr class="w-100 clearfix d-md-none" />
-                <div class="col-lg-3 col-xl-3 col-md-12 mx-auto mt-3">
-                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-                    <p><i class="fa fa-home mr-3"></i>Dakshin Barasat, West Bengal, India, 743372</p>
-                    <p><i class="fa fa-envelope mr-3"></i><a class="hover_action"
-                            href="mailto:info@carelyexport.com">info@carelyexport.com</a></p>
-                    <p><i class="fa fa-phone mr-3"></i><a href="tel:+91 7001821069"
-                            class="text_btn hover_action">+91&nbsp;7001821069</a></p>
-                </div>
+<footer id="sitefooter" class="bg-white text-dark">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <a class="navbar-brand" href="{{ route('home') }}">
+                    <img src="{{ asset('assets/img/logo.png') }}" alt="Logo" class="footer-logo w-50">
+                </a>
+                <p class="footer-text">Export Your Need</p>
             </div>
-        </section>
+            <div class="col-lg-3 col-md-6">
+                <h6 class="footer-heading fw-bold">Products</h6>
+                <ul class="footer-links text-dark ms-3">
+                    <li><a href="{{ route('product', 'Rice') }}" class="text-dark">Rice</a></li>
+                    <li><a href="{{ route('product', 'vermicompost') }}" class="text-dark">Vermicompost</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h6 class="footer-heading fw-bold">Menu</h6>
+                <ul class="footer-links text-dark ms-3">
+                    <li><a href="{{ route('page-name', 'terms-conditions') }}" class="text-dark">Terms &amp; Conditions</a></li>
+                    <li><a href="{{ route('page-name', 'privacy-policy') }}" class="text-dark">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h6 class="footer-heading fw-bold">Contact</h6>
+                <ul class="footer-links footer-contact text-dark ms-3">
+                    <li><i class="fa fa-home mr-3 "></i> &nbsp; Dakshin Barasat, West Bengal, India, 743372</li>
+                    <li><i class="fa fa-envelope mr-2"></i>&nbsp;<a href="mailto:info@carelyexport.com" class="text-dark">info@carelyexport.com</a></li>
+                    <li><i class="fa fa-phone mr-2"></i>&nbsp;<a href="tel:+917001821069"  class="text-dark">+91 7001821069</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-3" style="background-color: #F5F5F5 !important;">
+        <div class="text-center">
+            <p class="mb-0">&copy; {{ date('Y') }} Your Company. All rights reserved.</p>
+        </div>
     </div>
 </footer>
