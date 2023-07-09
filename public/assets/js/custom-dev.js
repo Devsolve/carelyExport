@@ -25,18 +25,12 @@ function fieldErrorMessage(selector, message) {
         $('#'+ selector +'-error').html(message);
     }
 }
-function loaderShow(selector, message){
-    selector.loading({
-        stoppable: false,
-        message: message,
-        theme: 'dark'
-    });
+function loaderShow(){
+    $.LoadingOverlay("show");
 }
 
-function loaderHide(selector){
-    if(selector.is(':loading')){
-        selector.loading('stop');
-    }
+function loaderHide(){
+    $.LoadingOverlay("hide", true);
 }
 
 function errorTextRemove(){
@@ -121,7 +115,7 @@ $(document).ready(function () {
         e.preventDefault();
         errorTextRemove();
         let contactFormSelector = $('#contactForm');
-        loaderHide($('body'));
+        loaderHide();
 
         $.ajax({
             url: $(this).attr('action'),
@@ -133,13 +127,13 @@ $(document).ready(function () {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
             },
             beforeSend: function () {
-                loaderShow($('body'),'Please wait...');
+                loaderShow();
             },
             success: function (response) {
                 if (response.status === 'success') {
                     successToastMessage(response.message);
                     contactFormSelector[0].reset();
-                    loaderHide($('body'));
+                    loaderHide();
                 } else {
                     if(typeof response.message === "object" && response.message !== null){
                         $.each(response.message, function (key, value) {
@@ -148,13 +142,13 @@ $(document).ready(function () {
                     }else{
                         $('#server_error').html('<div class="alert alert-danger alert-block error-element">'+ response.message +'</div>');
                     }
-                    loaderHide($('body'));
+                    loaderHide();
                     return false;
                 }
             },
             error: function (response) {
                 console.log(response);
-                loaderHide($('body'));
+                loaderHide();
             },
         });
     });
