@@ -4,7 +4,7 @@ function successToastMessage(message) {
         heading: 'Success',
         text: message,
         icon: 'success',
-        position: 'top-right',
+        position: 'bottom-left',
         stack: false
     })
 }
