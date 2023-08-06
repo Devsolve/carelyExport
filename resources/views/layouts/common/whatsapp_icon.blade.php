@@ -1,5 +1,5 @@
 <div class="whatsapp-icon">
-    <a href="https://api.whatsapp.com/send?phone=123456789" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=+917001821069" target="_blank">
         <img src="{{ asset('assets/img/WhatsApp.png') }}" width="200px" height="200px" alt="WhatsApp Icon">
     </a>
 </div>
@@ -26,8 +26,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <style>
-    {{--scroll css --}}
-    .scroll-to-top {
+    {{-- scroll css --}} .scroll-to-top {
         display: none;
         position: fixed;
         bottom: 100px;
@@ -52,6 +51,7 @@
     .scroll-to-top.active {
         display: block;
     }
+
     /**/
     .whatsapp-icon {
         position: fixed;
